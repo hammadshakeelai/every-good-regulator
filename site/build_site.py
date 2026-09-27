@@ -54,7 +54,8 @@ BOXES = {  # first bold words of a blockquote -> css class
 
 
 def slug(fname):
-    return re.sub(r"^\d+[ab]?-", "", fname[:-3])
+    s = re.sub(r"^\d+[ab]?-", "", fname[:-3])
+    return "book-index" if s == "index" else s
 
 
 def pandoc(md_text):

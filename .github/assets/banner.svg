@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640">
+<defs><pattern id="g" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32,0 H0 V32" fill="none" stroke="#dfe6ee" stroke-width="1"/></pattern>
+<linearGradient id="fade" x1="0" x2="1"><stop offset="0" stop-color="#f6f3ec" stop-opacity="0"/><stop offset=".55" stop-color="#f6f3ec" stop-opacity="0"/><stop offset="1" stop-color="#f6f3ec" stop-opacity=".4"/></linearGradient></defs>
+<rect width="1280" height="640" fill="#f6f3ec"/><rect width="1280" height="640" fill="url(#g)"/>
+<g fill="none" stroke="#c4cfdb" stroke-width="3"><circle cx="980" cy="330" r="235"/></g>
+<rect x="770" y="250" width="170" height="140" fill="#f6f3ec" stroke="#14202b" stroke-width="4"/>
+<rect x="800" y="305" width="110" height="60" fill="#fbe3d6" stroke="#eb6834" stroke-width="4"/>
+<text x="855" y="285" font-family="Georgia" font-size="22" font-weight="bold" text-anchor="middle" fill="#14202b">REGULATOR</text>
+<text x="855" y="343" font-family="Georgia" font-size="20" font-style="italic" text-anchor="middle" fill="#14202b">model</text>
+<rect x="1030" y="250" width="170" height="140" fill="#f6f3ec" stroke="#14202b" stroke-width="4"/>
+<text x="1115" y="327" font-family="Georgia" font-size="22" font-weight="bold" text-anchor="middle" fill="#14202b">THE WORK</text>
+<line x1="940" y1="278" x2="1020" y2="278" stroke="#14202b" stroke-width="7"/><path d="M1014,266 L1032,278 L1014,290 Z" fill="#14202b"/>
+<line x1="1030" y1="362" x2="955" y2="362" stroke="#14202b" stroke-width="3" stroke-dasharray="10 8"/><path d="M961,353 L943,362 L961,371 Z" fill="#14202b"/>
+<text x="985" y="400" font-family="Georgia" font-size="18" font-style="italic" text-anchor="middle" fill="#14202b">feedback?</text>
+<line x1="1180" y1="0" x2="1180" y2="190" stroke="#eb6834" stroke-width="10" stroke-linecap="round"/><rect x="1162" y="185" width="36" height="66" rx="16" fill="#eb6834"/>
+<g fill="none" stroke="#14202b" stroke-width="5" stroke-linecap="round"><circle cx="1100" cy="185" r="17"/><line x1="1100" y1="202" x2="1100" y2="236"/><line x1="1100" y1="236" x2="1086" y2="250"/><line x1="1100" y1="236" x2="1114" y2="250"/><line x1="1100" y1="212" x2="1150" y2="190"/></g>
+<text x="80" y="110" font-family="Helvetica, Arial" font-size="20" font-weight="bold" letter-spacing="4" fill="#eb6834">A BOOK ABOUT METASYSTEMS ENGINEERING</text>
+<text x="76" y="225" font-family="Georgia" font-size="108" font-weight="bold" fill="#14202b" letter-spacing="-2">Every Good</text>
+<text x="76" y="335" font-family="Georgia" font-size="108" font-weight="bold" font-style="italic" fill="#eb6834" letter-spacing="-2">Regulator</text>
+<text x="80" y="400" font-family="Georgia" font-size="30" font-style="italic" fill="#14202b">Why the systems that run our work fail —</text>
+<text x="80" y="440" font-family="Georgia" font-size="30" font-style="italic" fill="#14202b">and how to build ones that don't</text>
+<text x="80" y="520" font-family="Georgia" font-size="30" fill="#14202b">Muhammad Hammad Shakeel</text>
+<rect x="80" y="555" width="620" height="44" rx="22" fill="#14202b"/>
+<text x="390" y="583" font-family="Helvetica, Arial" font-size="17" font-weight="bold" letter-spacing="2" text-anchor="middle" fill="#f6f3ec">MODEL · LEGIBILITY · REMAINDER · STOP · JUMP</text>
+<text x="1200" y="610" font-family="Helvetica, Arial" font-size="18" text-anchor="end" fill="#6b7178">Read free online</text>
+</svg>

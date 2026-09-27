@@ -1,0 +1,21 @@
+name: Site check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check links, anchors and images in the published site
+        run: python site/check_links.py
+      - name: Install pandoc
+        run: sudo apt-get update -q && sudo apt-get install -y -q pandoc
+      - name: The site generator still builds
+        run: python site/build_site.py && python site/check_links.py

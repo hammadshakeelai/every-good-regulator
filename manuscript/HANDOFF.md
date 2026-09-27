@@ -5,7 +5,7 @@
 
 - Five words: Model, Legibility, Remainder, Stop, Jump.
 - Structure: 4 Parts, 15 chapters, plus prologue, epilogue and appendices.
-- Plans: `../BOOK_PLAN.md` (spine, outline), `../FUN_TOOLKIT.md` (fun devices and humour rules; **no jokes in ch. 7 or in the 737 MAX, Columbia and Therac sections**), `00-STYLE-SHEET.md`.
+- Plans: `../planning/BOOK_PLAN.md` (spine, outline), `../planning/FUN_TOOLKIT.md` (fun devices and humour rules; **no jokes in ch. 7 or in the 737 MAX, Columbia and Therac sections**), `00-STYLE-SHEET.md`.
 
 ## State
 - ~63,400 words across `00-prologue.md` … `17-appendices.md`. The status table is in `STATUS.md`.

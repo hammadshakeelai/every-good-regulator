@@ -1,0 +1,36 @@
+name: Report an error in the book
+description: A fact, quotation, date, typo or broken link that is wrong. This is the book's andon cord — please pull it.
+title: "[Erratum] "
+labels: ["erratum"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. Chapter 12 argues that the person who sees the problem should be able to stop the line — this form is that cord.
+  - type: input
+    id: where
+    attributes:
+      label: Where
+      description: Chapter and section, or the page URL on the website.
+      placeholder: "Chapter 7, 'How it looked from the branch' — or https://hammadshakeelai.github.io/every-good-regulator/the-presumption.html"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What is wrong
+      description: Quote the sentence if you can, and say what it should say.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: A link or reference that shows the correct version (primary sources preferred).
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind of error
+      options: [Fact or figure, Quotation, Date, Typo or grammar, Broken link or image, Website display problem, Other]
+    validations:
+      required: true

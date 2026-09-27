@@ -8,3 +8,7 @@
 
 ---
 
+*© 2026 Muhammad Hammad Shakeel. Licensed under Creative Commons BY-NC-ND 4.0: you may share this book, unchanged and with credit, for non-commercial purposes. Selling it or publishing altered versions is not permitted without the author's permission. Read free at hammadshakeelai.github.io/every-good-regulator.*
+
+---
+

@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you cite this book, please cite it as below."
+type: book
+title: "Every Good Regulator: Why the Systems That Run Our Work Fail — and How to Build Ones That Don't"
+authors:
+  - family-names: Shakeel
+    given-names: Muhammad Hammad
+date-released: 2026-09-27
+version: "1.1"
+license: CC-BY-NC-ND-4.0
+url: "https://hammadshakeelai.github.io/every-good-regulator/"
+repository-code: "https://github.com/hammadshakeelai/every-good-regulator"
+keywords:
+  - metasystems engineering
+  - cybernetics
+  - systems thinking
+  - AI agents
+  - platform engineering
+  - safety engineering
