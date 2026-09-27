@@ -92,6 +92,16 @@ From `manuscript/`, run `bash build.sh`, or `bash build.sh pdf` to include the P
 - **Post-mortem reliability:** a blind re-tag of 50 random entries gave trigger kappa 0.82 and main mechanism kappas of 0.63–1.00 (see the codebook). Ch8 reports it as a same-coder re-test.
 - Page breaks now come before every level-1 heading, including the Prologue.
 
+## Published (27 Sep 2026)
+- **Repo (public):** https://github.com/hammadshakeelai/every-good-regulator. `.gitignore` keeps out the reference-book PDFs, the built files, downloaded sources, and the full tagging CSV (Luu's summaries are unlicensed). `postmortem_tags_public.csv` is the public version.
+- **Website:** https://hammadshakeelai.github.io/every-good-regulator/. GitHub Pages serves it from `main:/docs`, and `python site/build_site.py` regenerates `docs/`. It is plain static HTML/CSS/JS: reveal-on-scroll, a reading-progress bar, dark mode, a mobile contents drawer, a zoom viewer, ←/→ keys, and resume-where-you-left-off. All motion is off under prefers-reduced-motion.
+- **Release v1.0:** PDF, EPUB and DOCX are attached, and the site's download links use `releases/latest/download/`.
+- **To publish an update:**
+  1. `cd manuscript && bash build.sh pdf`
+  2. `cd .. && python site/build_site.py`
+  3. commit and push
+  4. `gh release create v1.x manuscript/EVERY-GOOD-REGULATOR.{pdf,epub,docx}`
+
 ## Only the author can do (the book is otherwise complete)
 1. (DONE) Author name, dedication, acknowledgements and About the Author. Add personal thanks to 16b if wanted.
 2. Optional enrichments: interviews (Hoverstadt/SCiO, StrongDM, Larson); your own by-hand-day and meta-meeting results (the TRY IT boxes in ch10 and ch14).
