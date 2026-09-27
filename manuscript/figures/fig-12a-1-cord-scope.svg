@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 470" font-family="Georgia, serif" role="img" aria-labelledby="t d">
+<title id="t">Figure 12a.1 — One big cord, or many small ones</title>
+<desc id="d">The same invented company of 5,000 people, each pulling a cord once a year. If each cord stops the whole company, there are 20 stops every working day, about 10 hours of stoppage in an 8-hour day. If each cord stops only its own team of eight, each team loses about four hours a year.</desc>
+<defs>
+  <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20,0 H0 V20" fill="none" stroke="#efeee9" stroke-width="1"/></pattern>
+</defs>
+<rect width="860" height="470" fill="#fcfcfb"/>
+<rect width="860" height="470" fill="url(#grid)"/>
+<text x="24" y="36" font-size="20" font-weight="bold" fill="#0b0b0b">One big cord, or many small ones</text>
+<text x="24" y="58" font-size="13" fill="#52514e">Same 5,000 people. Same one pull each a year. Only the scope of the cord changes. (Invented company; round-number assumptions.)</text>
+
+<!-- LEFT building -->
+<text x="215" y="96" font-size="15" font-weight="bold" text-anchor="middle" fill="#0b0b0b">ONE BIG CORD</text>
+<rect x="95" y="110" width="240" height="250" fill="#ffffff" stroke="#0b0b0b" stroke-width="2"/>
+<g stroke="#0b0b0b" stroke-width="1"><line x1="95" y1="172" x2="335" y2="172"/><line x1="95" y1="235" x2="335" y2="235"/><line x1="95" y1="297" x2="335" y2="297"/></g>
+<!-- stopped desks -->
+<g fill="#e4e3df" stroke="#a9a8a2">
+  <rect x="110" y="140" width="34" height="18"/><rect x="160" y="140" width="34" height="18"/><rect x="250" y="140" width="34" height="18"/>
+  <rect x="110" y="203" width="34" height="18"/><rect x="160" y="203" width="34" height="18"/><rect x="250" y="203" width="34" height="18"/>
+  <rect x="110" y="265" width="34" height="18"/><rect x="160" y="265" width="34" height="18"/><rect x="250" y="265" width="34" height="18"/>
+  <rect x="110" y="328" width="34" height="18"/><rect x="160" y="328" width="34" height="18"/><rect x="250" y="328" width="34" height="18"/>
+</g>
+<g font-size="9" fill="#8a8984" text-anchor="middle"><text x="127" y="170">STOPPED</text><text x="177" y="170">STOPPED</text><text x="267" y="170">STOPPED</text><text x="127" y="233">STOPPED</text><text x="177" y="233">STOPPED</text><text x="267" y="233">STOPPED</text><text x="127" y="295">STOPPED</text><text x="177" y="295">STOPPED</text><text x="267" y="295">STOPPED</text><text x="127" y="358">STOPPED</text><text x="177" y="358">STOPPED</text><text x="267" y="358">STOPPED</text></g>
+<!-- the big cord -->
+<line x1="222" y1="100" x2="222" y2="350" stroke="#eb6834" stroke-width="5"/>
+<circle cx="222" cy="352" r="7" fill="#eb6834"/>
+<!-- cobweb clock -->
+<circle cx="312" cy="128" r="11" fill="#ffffff" stroke="#0b0b0b"/><line x1="312" y1="128" x2="312" y2="120" stroke="#0b0b0b"/><line x1="312" y1="128" x2="318" y2="128" stroke="#0b0b0b"/>
+<path d="M300,117 L324,139 M324,117 L300,139" stroke="#c9c8c3" stroke-width="0.8"/>
+<text x="215" y="390" font-size="22" font-weight="bold" text-anchor="middle" fill="#0b0b0b">20 stops a day</text>
+<text x="215" y="412" font-size="13" text-anchor="middle" fill="#52514e">≈ 10 hours stopped in an 8-hour day</text>
+<text x="215" y="430" font-size="13" text-anchor="middle" fill="#52514e">The company never runs.</text>
+
+<!-- RIGHT building -->
+<text x="645" y="96" font-size="15" font-weight="bold" text-anchor="middle" fill="#0b0b0b">MANY SMALL CORDS</text>
+<rect x="525" y="110" width="240" height="250" fill="#ffffff" stroke="#0b0b0b" stroke-width="2"/>
+<g stroke="#0b0b0b" stroke-width="1"><line x1="525" y1="172" x2="765" y2="172"/><line x1="525" y1="235" x2="765" y2="235"/><line x1="525" y1="297" x2="765" y2="297"/></g>
+<g fill="#ffffff" stroke="#0b0b0b">
+  <rect x="540" y="140" width="34" height="18"/><rect x="600" y="140" width="34" height="18"/><rect x="680" y="140" width="34" height="18"/>
+  <rect x="540" y="203" width="34" height="18"/><rect x="680" y="203" width="34" height="18"/>
+  <rect x="540" y="265" width="34" height="18"/><rect x="600" y="265" width="34" height="18"/><rect x="680" y="265" width="34" height="18"/>
+  <rect x="540" y="328" width="34" height="18"/><rect x="600" y="328" width="34" height="18"/><rect x="680" y="328" width="34" height="18"/>
+</g>
+<!-- small cords -->
+<g stroke="#eb6834" stroke-width="2"><line x1="584" y1="112" x2="584" y2="136"/><line x1="664" y1="112" x2="664" y2="136"/><line x1="584" y1="237" x2="584" y2="261"/><line x1="664" y1="237" x2="664" y2="261"/><line x1="584" y1="299" x2="584" y2="323"/><line x1="664" y1="299" x2="664" y2="323"/><line x1="664" y1="174" x2="664" y2="198"/></g>
+<!-- the one paused team -->
+<rect x="600" y="203" width="34" height="18" fill="#fdeee6" stroke="#eb6834" stroke-width="2"/>
+<line x1="590" y1="174" x2="590" y2="206" stroke="#eb6834" stroke-width="3"/>
+<circle cx="590" cy="208" r="4" fill="#eb6834"/>
+<text x="617" y="233" font-size="9" fill="#eb6834" text-anchor="middle">PAUSED</text>
+<!-- team leader walking over -->
+<circle cx="740" cy="200" r="5" fill="none" stroke="#0b0b0b"/><line x1="740" y1="205" x2="740" y2="218" stroke="#0b0b0b"/><line x1="740" y1="218" x2="735" y2="229" stroke="#0b0b0b"/><line x1="740" y1="218" x2="746" y2="229" stroke="#0b0b0b"/><line x1="740" y1="209" x2="732" y2="214" stroke="#0b0b0b"/>
+<path d="M728,222 L645,222" stroke="#0b0b0b" stroke-dasharray="3 3"/>
+<text x="645" y="390" font-size="22" font-weight="bold" text-anchor="middle" fill="#0b0b0b">4 hours a year</text>
+<text x="645" y="412" font-size="13" text-anchor="middle" fill="#52514e">of stoppage per team of eight</text>
+<text x="645" y="430" font-size="13" text-anchor="middle" fill="#52514e">Everyone else keeps working.</text>
+
+<text x="430" y="458" font-size="11" text-anchor="middle" fill="#8a8984">Working: 5,000 pulls ÷ 250 days = 20 a day; 20 × 30 min = 10 h. Per team: 5,000 ÷ 625 teams = 8 a year; 8 × 30 min = 4 h.</text>
+</svg>

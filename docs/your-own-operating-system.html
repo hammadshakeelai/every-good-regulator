@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>15. Your Own Operating System · Every Good Regulator</title>
+<meta name="description" content="15. Your Own Operating System — from Every Good Regulator, a book about the systems that run our systems, by Muhammad Hammad Shakeel.">
+<meta name="theme-color" content="#f6f3ec" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#11161c" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="img/cover.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=Inter:wght@500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+<script>try{var t=localStorage.getItem('egr-theme');if(t)document.documentElement.dataset.theme=t}catch(e){}document.documentElement.classList.add('js')</script>
+</head>
+<body class="reader kind-ch">
+<a class="skip" href="#content">Skip to the text</a>
+<div class="progress" aria-hidden="true"><span></span></div>
+<header class="topbar">
+  <button class="icon-btn menu-btn" aria-label="Open the contents" aria-expanded="false" aria-controls="toc">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h10"/></svg>
+  </button>
+  <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span>Every Good Regulator</a>
+  <span class="crumb">Chapter 15 · 12 min read</span>
+  <div class="top-actions">
+    <details class="dl">
+      <summary class="icon-btn" aria-label="Download the book"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg></summary>
+      <div class="dl-menu">
+        <a href="https://github.com/hammadshakeelai/every-good-regulator/releases/latest/download/EVERY-GOOD-REGULATOR.pdf">PDF</a>
+        <a href="https://github.com/hammadshakeelai/every-good-regulator/releases/latest/download/EVERY-GOOD-REGULATOR.epub">EPUB (e-readers)</a>
+        <a href="https://github.com/hammadshakeelai/every-good-regulator/releases/latest/download/EVERY-GOOD-REGULATOR.docx">Word</a>
+        <a href="https://github.com/hammadshakeelai/every-good-regulator" target="_blank" rel="noopener">Source on GitHub</a>
+      </div>
+    </details>
+    <button class="icon-btn theme-btn" aria-label="Switch light or dark">
+      <svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg>
+      <svg class="moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg>
+    </button>
+  </div>
+</header>
+<div class="scrim" hidden></div>
+<div class="layout">
+  <aside class="sidebar" id="toc" aria-label="Contents">
+    <div class="sidebar-head"><a href="index.html"><img src="img/cover.png" alt="" width="54" height="86"></a><div><strong>Every Good Regulator</strong><span>Muhammad Hammad Shakeel</span></div></div>
+    <ol class="toc"><li><a href="prologue.html"><span class="toc-k">Prologue</span><span class="toc-t">The Scoreboard</span></a></li>
+<li class="toc-part">Part One — The Layer You Can&#x27;t See</li>
+<li><a href="the-forest-that-died.html"><span class="toc-k">1</span><span class="toc-t">The Forest That Died</span></a></li>
+<li><a href="every-good-regulator.html"><span class="toc-k">2</span><span class="toc-t">Every Good Regulator</span></a></li>
+<li><a href="what-if-thermostat.html"><span class="toc-k">What If?</span><span class="toc-t">What If Your Thermostat Lied to Itself?</span></a></li>
+<li><a href="the-jump.html"><span class="toc-k">3</span><span class="toc-t">The Jump</span></a></li>
+<li><a href="what-if-todo-app.html"><span class="toc-k">What If?</span><span class="toc-t">What If Your To-Do App Needed Its Own To-Do App?</span></a></li>
+<li><a href="the-viable-system.html"><span class="toc-k">4</span><span class="toc-t">The Viable System</span></a></li>
+<li><a href="exploded-view-company.html"><span class="toc-k">Exploded View</span><span class="toc-t">The Company as a Metasystem</span></a></li>
+<li class="toc-part">Part Two — How the Layer Fails</li>
+<li><a href="compliant-and-fatal.html"><span class="toc-k">5</span><span class="toc-t">Compliant and Fatal</span></a></li>
+<li><a href="the-fee-for-bug-reports.html"><span class="toc-k">6</span><span class="toc-t">The Fee for Bug Reports</span></a></li>
+<li><a href="the-presumption.html"><span class="toc-k">7</span><span class="toc-t">The Presumption</span></a></li>
+<li><a href="running-broken.html"><span class="toc-k">8</span><span class="toc-t">Running Broken</span></a></li>
+<li><a href="the-model-you-copied.html"><span class="toc-k">9</span><span class="toc-t">The Model You Copied</span></a></li>
+<li><a href="exploded-view-alis.html"><span class="toc-k">Exploded View</span><span class="toc-t">A Loop That Acts but Cannot Hear</span></a></li>
+<li class="toc-part">Part Three — The Human in the Loop</li>
+<li><a href="the-ironies-of-automation.html"><span class="toc-k">10</span><span class="toc-t">The Ironies of Automation</span></a></li>
+<li><a href="what-if-swap-jobs.html"><span class="toc-k">What If?</span><span class="toc-t">What If We Swapped Jobs: the AI Watches, the Human Types?</span></a></li>
+<li><a href="specify-or-explain.html"><span class="toc-k">11</span><span class="toc-t">Specify or Explain</span></a></li>
+<li><a href="who-may-stop-the-line.html"><span class="toc-k">12</span><span class="toc-t">Who May Stop the Line</span></a></li>
+<li><a href="what-if-stop-the-company.html"><span class="toc-k">What If?</span><span class="toc-t">What If Every Employee Could Stop the Company?</span></a></li>
+<li><a href="exploded-view-factory.html"><span class="toc-k">Exploded View</span><span class="toc-t">Inside a Software Factory</span></a></li>
+<li class="toc-part">Part Four — Layers That Work, at Every Scale</li>
+<li><a href="grow-it-dont-design-it.html"><span class="toc-k">13</span><span class="toc-t">Grow It, Don&#x27;t Design It</span></a></li>
+<li><a href="the-organisations-operating-system.html"><span class="toc-k">14</span><span class="toc-t">The Organisation&#x27;s Operating System</span></a></li>
+<li class="current"><a href="your-own-operating-system.html" aria-current="page"><span class="toc-k">15</span><span class="toc-t">Your Own Operating System</span></a></li>
+<li><a href="exploded-view-personal.html"><span class="toc-k">Exploded View</span><span class="toc-t">One Person&#x27;s Operating System</span></a></li>
+<li><a href="epilogue.html"><span class="toc-k">Epilogue</span><span class="toc-t">Back to the Scoreboard</span></a></li>
+<li><a href="acknowledgements.html"><span class="toc-k">Thanks</span><span class="toc-t">Acknowledgements</span></a></li>
+<li><a href="appendices.html"><span class="toc-k">Appendices</span><span class="toc-t">Appendices</span></a></li>
+<li><a href="index.html"><span class="toc-k">Index</span><span class="toc-t">Index</span></a></li>
+<li><a href="about-the-author.html"><span class="toc-k">Author</span><span class="toc-t">About the Author</span></a></li></ol>
+  </aside>
+  <main id="content" tabindex="-1">
+    <article class="prose">
+<h1 id="your-own-operating-system">15. Your Own Operating System</h1>
+<p><em>The smallest metasystem is the one you run on yourself.</em></p>
+<blockquote class="box  reveal">
+<p>“Rather than being the author, you become the administrator of your knowledge base.” — Ben Khalesi, 2025</p>
+</blockquote>
+<hr />
+<p>In the summer of 2025, the writer and technologist Joan Westenberg deleted her second brain.</p>
+<p>A “second brain,” in the language of the personal-productivity world, is a system for capturing and organising everything you learn and think — notes, links, highlights, ideas, tasks — so that your own brain is free to think. Westenberg’s was substantial. The subtitle of her essay about deleting it describes erasing about 10,000 notes and seven years of ideas. Her vault in the popular note-taking app Obsidian went; so, according to accounts of the essay, did notes going back to 2015 and to-do lists spread across several apps.</p>
+<p>Her reason was not that the system had failed to store things. It had stored them beautifully. The problem was what it had done to her thinking. The system, she wrote, had become a kind of mausoleum of old interests. And instead of speeding up her thinking, “it began to replace it.”</p>
+<p>The essay struck a nerve. On the programmers’ forum Hacker News, it drew nearly 600 upvotes and nearly 350 comments. Some readers were delighted; one wrote a small plugin in response. Others were horrified at the idea of throwing away years of notes. The writer Elizabeth Tai, who uses Obsidian to turn ideas into published essays, published a response supporting the deletion of cluttered systems — while keeping her own, in which every note has an intended use.</p>
+<p>This last chapter takes the book’s ideas down to the smallest scale they fit: the governing layer that one person builds to run their own life and work.</p>
+<hr />
+<h2 id="a-metasystem-of-one"><a class="anchor" href="#a-metasystem-of-one" aria-hidden="true">#</a>A metasystem of one</h2>
+<p>Most people who work with information have some version of a personal operating system. A to-do list. A calendar. A notes app. A habit tracker. An inbox with folders and rules. A weekly review. Increasingly, an AI assistant that summarises, drafts and reminds.</p>
+<p>Each of these is a governing layer over the actual work of your life — the writing, the thinking, the conversations, the craft. And each of them is subject to the same forces this book has traced through factories, platforms, fighter jets and government departments.</p>
+<p>A word of honesty first. Stafford Beer’s viable system model (Chapter 4) was built for organisations, and the research behind this book found that its preconditions do not straightforwardly apply to a single person. What follows is an <em>analogy</em> — a useful one, but an analogy. The five words carry across more cleanly than the full cybernetic apparatus.</p>
+<hr />
+<h2 id="model-the-system-that-stopped-matching-you"><a class="anchor" href="#model-the-system-that-stopped-matching-you" aria-hidden="true">#</a>Model: the system that stopped matching you</h2>
+<p>Your personal system is a model of your work and your life: what you are doing, what you care about, what you intend to do next. Like every regulator’s model, it was fitted to a particular moment. And like every model, it goes stale.</p>
+<p>Westenberg’s phrase — a mausoleum of old interests — is a precise description of a model that has stopped changing while its owner kept changing. Her notes described a person she no longer entirely was. The system kept presenting that person back to her, and the effort of maintaining it was effort spent on someone else’s priorities: her own, from years before.</p>
+<p>This is Conant and Ashby’s fourth comment, at the scale of one life. A time-varying person needs a time-varying system — or, sometimes, the courage to let the old model go.</p>
+<hr />
+<h2 id="legibility-capturing-is-not-thinking"><a class="anchor" href="#legibility-capturing-is-not-thinking" aria-hidden="true">#</a>Legibility: capturing is not thinking</h2>
+<p>The promise of the second brain is legibility. Capture everything, link it, tag it, and your own mind becomes visible to you — searchable, browsable, connected.</p>
+<p>The technology journalist Casey Newton described in 2023 what happened when he tried. Through 2021 and 2022 he used Roam Research, a note-taking tool built around links between notes, in the hope that connecting his reporting would surface new ideas. He tried Obsidian, then moved to another app called Mem. The insights, he wrote, never came; he waited, and waited. His conclusion, drawing on the researcher Andy Matuschak, was that the apps were built to display and manipulate notes rather than to help people make meaning from them — and that thinking happens in the mind, through sustained concentration, not in the links between files.</p>
+<p>It is Chapter 1’s forest again. A note is a legible record of a thought. A system of notes is a Normalbaum: a neat, countable, searchable picture of your thinking. And a system optimised for capture can end up managing out of your life the illegible thing it was meant to support — the slow, unrecorded work of actually thinking about something.</p>
+<p>The cost can be counted. The software developer Tomas Vik kept a <em>Zettelkasten</em> — a method of writing permanent, linked notes, popular among researchers — for more than a year and wrote honestly about the price. Each permanent note took him about 30 minutes, including the reading behind it. Books took four to six times longer to read, and he gave up on one because of the pace. He kept the method; linking forced him to understand what he was writing. But he wondered whether a simpler practice might give a better return for the time.</p>
+<blockquote class="box box-weird reveal">
+<p><strong>WEIRD TRUE THING</strong> At Tomas Vik’s pace of about 30 minutes per permanent note, a second brain the size of Joan Westenberg’s — about 10,000 notes — would represent some 5,000 hours of work: roughly two and a half years of full-time employment, spent on the filing. (Most notes in most systems are quicker than Vik’s careful ones, so treat this as an upper bound. It is still a lot of Sundays.)</p>
+</blockquote>
+<blockquote class="box box-small reveal">
+<p><strong>IN SMALL WORDS</strong> Writing things down is not the same as thinking about them. A system that saves every thought can use up the time you needed to have new ones.</p>
+</blockquote>
+<hr />
+<h2 id="jump-becoming-the-administrator"><a class="anchor" href="#jump-becoming-the-administrator" aria-hidden="true">#</a>Jump: becoming the administrator</h2>
+<p>The quotation at the top of this chapter comes from the technology writer Ben Khalesi, who in October 2025 described what happened when he loaded Obsidian with community plugins for tasks and organising data. It slowed down. Syncing to his phone failed. The system became unreliable — and maintaining it began to crowd out his writing. He switched nearly all the plugins off, and the system became faster, more stable and better for what he had wanted it for in the first place.</p>
+<p>His summary is the best description of a personal metasystem transition (Chapter 3) that I have found: rather than being the author, you become the administrator of your knowledge base.</p>
+<p>Every personal system makes the same jump sooner or later. First you do the work. Then you build a system to help you do the work. Then the system needs maintaining, and you build habits, templates and tools to maintain it — and before long you are running a system for running your system. Each layer is sensible. Together, they turn an author into an administrator.</p>
+<figure class="reveal">
+<img loading="lazy" decoding="async" src="img/comic-15-1.png" alt="Comic 15.1 — Just a quick weekly review" />
+<figcaption aria-hidden="true">Comic 15.1 — Just a quick weekly review</figcaption>
+</figure>
+<hr />
+<h2 id="grow-it-the-text-file"><a class="anchor" href="#grow-it-the-text-file" aria-hidden="true">#</a>Grow it: the text file</h2>
+<p>If elaborate systems collapse under their own weight, what lasts?</p>
+<p>The longest-lived personal system in the research behind this book is almost no system at all. The computer scientist Jeff Huang described in 2020 — and updated in 2022 — how he had kept his to-dos, notes and a record of his completed work in a <strong>single text file</strong> for 14 years. By his update, it had grown to more than 51,000 lines. Each night, he copies the next day’s calendar items to the end of the file, making a list for the day. Through the day he annotates it, so the list becomes a record of what he actually did. A few hashtags make it searchable. Everything with a date — including tasks scheduled for when he wants to think about them — lives in his calendar. He had moved away from dedicated task apps, he wrote, because the lists kept getting longer and information ended up scattered across tools.</p>
+<p>Huang’s file is Gall’s law (Chapter 13) at the scale of one person. It started simple and worked, and it grew by accretion from something that already worked. Its model of his work is refreshed every single day, by a ritual small enough to actually do. And its lists are sized to a single day — the unit of time a person can really see.</p>
+<p>Readers of Huang’s post and Westenberg’s essay described their own versions. On Hacker News and the forum Lobsters, people told of replacing corporate task-tracking software with a hand-written spreadsheet file; moving from elaborate digital systems to a paper notebook because rewriting unfinished items by hand every month worked better away from a screen; abandoning a fine-grained system of breaking tasks down after realising they needed to look at how they actually worked, not at the “cool system”; and collapsing an elaborate folder structure into a single folder.</p>
+<hr />
+<h2 id="stop-keep-the-archive-lighten-the-load"><a class="anchor" href="#stop-keep-the-archive-lighten-the-load" aria-hidden="true">#</a>Stop: keep the archive, lighten the load</h2>
+<p>Not everyone agreed that deletion was the answer, and the disagreement is instructive.</p>
+<p>Many of the most thoughtful responses to Westenberg were from people who <em>kept</em> their systems. One said their notes had saved them and their team from serious trouble more times than they could count; offloading memory was the point. Another valued old notes the way other people value old photographs — not for retrieving facts, but for revisiting who they had been. Another kept write-only logs because roughly one note in a hundred turned out to be extremely useful years later. Several said they would never delete, but archive — putting old material into a dated file and out of the way. One regretted, decades later, throwing away a notebook from the 1980s.</p>
+<p>And one commenter drew the distinction that seems to decide the whole argument. Notes that are really <em>things to do</em>, they suggested, are a burden: each one is an obligation, and a large pile of them is a large pile of guilt. Notes that are a <em>historical record</em> are not a burden at all; they cost nothing to keep and occasionally repay the keeping.</p>
+<p>That distinction maps neatly onto this book’s ideas. An active personal system is a regulator — it tells you what to do next — and a regulator carrying a stale model pushes you in the wrong direction. An archive is not a regulator; it is a memory. The healthy move is usually not deletion but <strong>separation</strong>: keep a small, current, active system that is refreshed often, and a large, cold archive that asks nothing of you.</p>
+<p>And give yourself the andon cord. In Chapter 12, the power to stop the line was the most important property of a governing system. For a personal system, it is the permission — which you have to grant yourself — to stop maintaining something that no longer serves you, archive it, and start again from something small.</p>
+<hr />
+<h2 id="remainder-the-machine-that-reads-your-notes"><a class="anchor" href="#remainder-the-machine-that-reads-your-notes" aria-hidden="true">#</a>Remainder: the machine that reads your notes</h2>
+<p>There is one more force at work, and it is new.</p>
+<p>In 2023, Newton hoped that AI search across his notes might one day deliver the research assistant the note apps had promised. By 2025, one commenter on Westenberg’s essay was suggesting that there was no longer any need to organise old notes at all: archive them, and let a local AI model find whatever was useful in them later.</p>
+<p>If that is right, it changes the economics of every personal system — and probably every internal wiki. The effort of manual organisation, of tagging and linking and filing, was the main cost of a second brain. An AI that can search a disorganised pile removes much of it.</p>
+<p>But Chapter 10 has something to say about this too. When a machine takes over the easy part of a job, the human is left the remainder. If the machine does the organising, the filing and the retrieving, what remains for you is the part it cannot do: noticing what matters, making connections that mean something, actually thinking. Westenberg’s warning — that her system had begun to <em>replace</em> her thinking — applies with even more force to a system that can summarise, connect and draft on your behalf. The question for a personal operating system in 2026 is not how much the machine can do. It is which part of the thinking you are determined to keep doing yourself.</p>
+<blockquote class="box box-mech reveal">
+<p><strong>THE MECHANISM</strong> <img loading="lazy" decoding="async" src="img/fig-15-1-personal-loop.png" alt="Figure 15.1 — A personal operating system that stays alive" /></p>
+<p>A personal operating system that lasts: a small active core refreshed every day, a calendar for what has a date, and a cold archive that is memory rather than obligation. Anything that grows into a system for maintaining the system is a candidate for the cord.</p>
+</blockquote>
+<hr />
+<h2 id="the-image"><a class="anchor" href="#the-image" aria-hidden="true">#</a>The Image</h2>
+<p>A single text file, fourteen years long, growing by one day at a time.</p>
+<h2 id="the-reversal"><a class="anchor" href="#the-reversal" aria-hidden="true">#</a>The Reversal</h2>
+<p>Some people genuinely thrive with elaborate personal systems. For a researcher writing a thesis, a lawyer managing hundreds of cases or a writer building a body of published work, a carefully maintained knowledge system can be the backbone of their craft — Elizabeth Tai’s every-note-has-a-use vault and Tomas Vik’s slip-box are examples of systems their owners chose to keep after counting the cost. Minimalism can also be its own kind of performance. The lesson is not that simple is always better. It is that a personal system should be judged by the work it produces, not by how complete it is — and that any system whose maintenance has begun to crowd out that work needs to be pruned, whatever it looks like.</p>
+<h2 id="the-rules"><a class="anchor" href="#the-rules" aria-hidden="true">#</a>The Rules</h2>
+<ol type="1">
+<li><strong>Judge your system by the work it produces, not by what it contains.</strong></li>
+<li><strong>Keep the active system small and fresh; keep the archive cold.</strong></li>
+<li><strong>Capturing a thought is not having one.</strong></li>
+<li><strong>When you become the administrator, stop and prune.</strong></li>
+<li><strong>Decide which part of the thinking you will never hand to a machine.</strong></li>
+</ol>
+<h2 id="diagnose"><a class="anchor" href="#diagnose" aria-hidden="true">#</a>Diagnose</h2>
+<ul>
+<li>How much time each week do you spend maintaining your personal system, as opposed to doing the work it supports?</li>
+<li>How much of what is in your to-do list, notes or inbox describes the person you are now, rather than the person you were?</li>
+<li>Which of your notes are obligations, and which are records?</li>
+<li>If you lost your whole system tomorrow, what would you actually miss?</li>
+<li>What part of your thinking has an app or an AI started doing for you — and is that a part you wanted to give up?</li>
+</ul>
+<h2 id="try-this"><a class="anchor" href="#try-this" aria-hidden="true">#</a>Try This</h2>
+<p>For the next seven days, try Jeff Huang’s method alongside whatever you use now. Each evening, copy tomorrow’s calendar items into a single plain text file and add the few things you really intend to do. During the day, write what actually happened next to each one. At the end of the week, compare it with your usual system. Keep whichever one produced more of the work you care about.</p>
+<h2 id="your-turn"><a class="anchor" href="#your-turn" aria-hidden="true">#</a>Your Turn</h2>
+<p>A friend has spent three years building an elaborate personal knowledge system with hundreds of tags, templates and automated workflows. They say it is “almost perfect” but that they feel they are producing less writing than before they started. Using this chapter, explain what may be happening, and propose a plan that neither deletes their work nor lets the system keep growing. <em>(Worked answers are at the back of the book.)</em></p>
+<h2 id="in-one-paragraph"><a class="anchor" href="#in-one-paragraph" aria-hidden="true">#</a>In One Paragraph</h2>
+<p>The smallest governing layer is the one a person builds to run their own work and life, and it is subject to the same forces as any other. Its model goes stale — Joan Westenberg deleted a seven-year “second brain” that had become a mausoleum of old interests and had begun to replace her thinking. Legibility misleads — Casey Newton waited for insights from linked notes that never came, and Tomas Vik found each permanent note cost thirty minutes. It jumps into a system for maintaining the system, turning an author into an administrator, as Ben Khalesi put it. What lasts tends to be small, grown and refreshed daily, like Jeff Huang’s fourteen-year text file. Keep a small active system and a cold archive, give yourself permission to stop, and decide which part of your thinking you will never hand to a machine.</p>
+<h2 id="go-deeper"><a class="anchor" href="#go-deeper" aria-hidden="true">#</a>Go Deeper</h2>
+<ul>
+<li>Joan Westenberg, “I Deleted My Second Brain” (2025), and Elizabeth Tai, “I support deleting your second brain” (29 June 2025).</li>
+<li>Casey Newton, “Why note-taking apps don’t make us smarter,” <em>Platformer</em> (24 August 2023).</li>
+<li>Jeff Huang, “My productivity app is a never-ending .txt file,” jeffhuang.com (2020, updated 2022).</li>
+<li>Ben Khalesi, on stripping Obsidian back to its core features, <em>Android Police</em> (28 October 2025).</li>
+<li>Tomas Vik, “Slip-box after a year,” blog.viktomas.com.</li>
+</ul>
+<hr />
+<p><em>The Haiku Line</em></p>
+<blockquote class="box haiku reveal">
+<p>My second brain grew. I now spend all of Sunday tending to its needs.</p>
+</blockquote>
+
+    </article>
+    <nav class="pager" aria-label="Chapter navigation"><a class="prev" href="the-organisations-operating-system.html"><span>Previous</span><strong>The Organisation&#x27;s Operating System</strong></a><a class="next" href="exploded-view-personal.html"><span>Next</span><strong>One Person&#x27;s Operating System</strong></a></nav>
+    <footer class="foot">© 2026 Muhammad Hammad Shakeel · <a href="index.html">Every Good Regulator</a> · <a href="https://github.com/hammadshakeelai/every-good-regulator" target="_blank" rel="noopener">GitHub</a></footer>
+  </main>
+</div>
+<dialog class="lightbox" aria-label="Enlarged image"><button class="icon-btn close" aria-label="Close">✕</button><div class="lb-frame"></div><p class="lb-cap"></p></dialog>
+<script src="app.js" defer></script>
+</body>
+</html>

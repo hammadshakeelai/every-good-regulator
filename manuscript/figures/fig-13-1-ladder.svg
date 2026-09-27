@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 520" font-family="Georgia, serif" role="img" aria-labelledby="t d">
+<title id="t">Figure 13.1 — Where the leverage is</title>
+<desc id="d">A ladder with twelve rungs leaning against a wall labelled the system. The bottom rungs are wide and crowded with small figures adjusting dials labelled targets, budgets and mandates. The top rungs are narrow and almost empty, labelled goals, mindset, and the power to change the paradigm. Beside the ladder, a small seedling in a pot: start here, a small system that works.</desc>
+<defs>
+  <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20,0 H0 V20" fill="none" stroke="#efeee9" stroke-width="1"/></pattern>
+  <g id="fig" fill="none" stroke="#0b0b0b" stroke-width="1.2"><circle cx="0" cy="-19" r="4"/><line x1="0" y1="-15" x2="0" y2="-5"/><line x1="0" y1="-5" x2="-4" y2="3"/><line x1="0" y1="-5" x2="4" y2="3"/><line x1="0" y1="-12" x2="6" y2="-14"/></g>
+  <g id="dial"><circle r="6" fill="#ffffff" stroke="#0b0b0b"/><line x1="0" y1="0" x2="3" y2="-4" stroke="#eb6834" stroke-width="1.5"/></g>
+</defs>
+<rect width="860" height="520" fill="#fcfcfb"/><rect width="860" height="520" fill="url(#grid)"/>
+<text x="24" y="36" font-size="20" font-weight="bold" fill="#0b0b0b">Where the leverage is</text>
+<text x="24" y="58" font-size="13" fill="#52514e">Most effort goes to the bottom rungs. The power is at the top — and the way up starts small.</text>
+
+<!-- wall -->
+<rect x="600" y="80" width="40" height="400" fill="#ecebe6" stroke="#a9a8a2"/>
+<text x="620" y="280" font-size="13" text-anchor="middle" fill="#52514e" transform="rotate(-90 620 280)" font-style="italic">the system</text>
+<!-- ground -->
+<line x1="40" y1="480" x2="820" y2="480" stroke="#0b0b0b" stroke-width="1.5"/>
+<!-- ladder rails: from bottom (260..420,480) to top (560..600,90) narrowing -->
+<line x1="240" y1="480" x2="560" y2="92" stroke="#0b0b0b" stroke-width="3"/>
+<line x1="440" y1="480" x2="600" y2="92" stroke="#0b0b0b" stroke-width="3"/>
+<!-- 12 rungs -->
+<g stroke="#0b0b0b" stroke-width="2">
+  <line x1="265" y1="450" x2="452" y2="450"/><line x1="291" y1="418" x2="465" y2="418"/><line x1="317" y1="386" x2="478" y2="386"/><line x1="343" y1="355" x2="491" y2="355"/>
+  <line x1="369" y1="323" x2="504" y2="323"/><line x1="395" y1="291" x2="517" y2="291"/><line x1="421" y1="259" x2="530" y2="259"/><line x1="447" y1="227" x2="543" y2="227"/>
+  <line x1="473" y1="196" x2="556" y2="196"/><line x1="499" y1="164" x2="569" y2="164"/><line x1="525" y1="132" x2="582" y2="132"/><line x1="548" y1="104" x2="593" y2="104"/>
+</g>
+<!-- crowded bottom -->
+<g><use href="#fig" x="300" y="447"/><use href="#fig" x="330" y="447"/><use href="#fig" x="360" y="447"/><use href="#fig" x="395" y="447"/><use href="#fig" x="425" y="447"/>
+<use href="#fig" x="320" y="415"/><use href="#fig" x="360" y="415"/><use href="#fig" x="410" y="415"/><use href="#fig" x="445" y="415"/>
+<use href="#fig" x="350" y="383"/><use href="#fig" x="400" y="383"/><use href="#fig" x="450" y="383"/></g>
+<g><use href="#dial" x="315" y="466"/><use href="#dial" x="377" y="466"/><use href="#dial" x="439" y="466"/></g>
+<!-- bottom labels -->
+<g font-size="12" fill="#0b0b0b" text-anchor="end"><text x="250" y="454">targets</text><text x="270" y="422">budgets</text><text x="296" y="390">mandates</text></g>
+<text x="210" y="494" font-size="11" fill="#52514e">crowded: numbers and rules</text>
+<!-- top labels -->
+<g font-size="12" fill="#0b0b0b"><text x="660" y="200">goals</text><text x="660" y="140">mindset</text><text x="660" y="100" font-weight="bold" fill="#eb6834">the power to change</text><text x="660" y="115" font-weight="bold" fill="#eb6834">the paradigm</text></g>
+<g stroke="#c9c8c3"><line x1="560" y1="196" x2="654" y2="196"/><line x1="585" y1="134" x2="654" y2="136"/><line x1="596" y1="104" x2="654" y2="104"/></g>
+<text x="660" y="220" font-size="11" fill="#52514e">almost empty</text>
+<use href="#fig" x="512" y="161"/>
+
+<!-- seedling -->
+<g transform="translate(110,480)">
+  <path d="M-22,0 L-26,-30 H26 L22,0 Z" fill="#e4e3df" stroke="#0b0b0b" stroke-width="1.5"/>
+  <line x1="0" y1="-30" x2="0" y2="-62" stroke="#3f7a3f" stroke-width="2"/>
+  <path d="M0,-50 C -16,-58 -22,-70 -18,-76 C -8,-72 -2,-62 0,-50 Z" fill="#8fbf7f" stroke="#3f7a3f"/>
+  <path d="M0,-58 C 14,-66 22,-76 18,-82 C 8,-78 2,-68 0,-58 Z" fill="#8fbf7f" stroke="#3f7a3f"/>
+</g>
+<text x="110" y="340" font-size="12" text-anchor="middle" fill="#0b0b0b" font-weight="bold">start here:</text>
+<text x="110" y="356" font-size="12" text-anchor="middle" fill="#0b0b0b">a small system</text>
+<text x="110" y="372" font-size="12" text-anchor="middle" fill="#0b0b0b">that works</text>
+<text x="24" y="512" font-size="11" fill="#8a8984">After Donella Meadows's twelve leverage points and Gall's law (Chapter 13). Rung labels abbreviated.</text>
+</svg>

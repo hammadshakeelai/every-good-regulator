@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 500" font-family="Georgia, serif" role="img" aria-labelledby="t d">
+<title id="t">Figure 6.1 — A loop that can act but cannot hear</title>
+<desc id="d">The control loop from Chapter 2, redrawn for the F-35's logistics system. The arrow by which the regulator acts on the work is thick and strong. The feedback arrow back is thin and broken into pieces: at one break a toll booth labelled fee, at another a queue of envelopes labelled months, and one piece curves away into a separate box labelled spreadsheet. The model inside the regulator is shaded grey, going stale.</desc>
+<defs>
+  <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0b0b0b"/></marker>
+  <marker id="aa" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#eb6834"/></marker>
+  <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20,0 H0 V20" fill="none" stroke="#efeee9" stroke-width="1"/></pattern>
+  <pattern id="stale" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#e4e3df"/><line x1="0" y1="0" x2="0" y2="6" stroke="#c9c8c3" stroke-width="2"/></pattern>
+</defs>
+<rect width="860" height="500" fill="#fcfcfb"/><rect width="860" height="500" fill="url(#grid)"/>
+<text x="24" y="36" font-size="20" font-weight="bold" fill="#0b0b0b">A loop that can act but cannot hear</text>
+<text x="24" y="58" font-size="13" fill="#52514e">The Chapter 2 control loop, as the F-35's logistics system drew it.</text>
+
+<rect x="60" y="120" width="250" height="160" rx="6" fill="#ffffff" stroke="#0b0b0b" stroke-width="2"/>
+<text x="185" y="148" font-size="17" font-weight="bold" text-anchor="middle" fill="#0b0b0b">Regulator</text>
+<text x="185" y="166" font-size="12" text-anchor="middle" fill="#52514e">the logistics system</text>
+<rect x="110" y="186" width="150" height="70" rx="4" fill="url(#stale)" stroke="#8a8984" stroke-width="2"/>
+<text x="185" y="216" font-size="16" font-weight="bold" text-anchor="middle" fill="#52514e">model</text>
+<text x="185" y="236" font-size="12" text-anchor="middle" fill="#52514e">parts records, going stale</text>
+
+<rect x="550" y="120" width="250" height="160" rx="6" fill="#ffffff" stroke="#0b0b0b" stroke-width="2"/>
+<text x="675" y="190" font-size="17" font-weight="bold" text-anchor="middle" fill="#0b0b0b">The work</text>
+<text x="675" y="212" font-size="12" text-anchor="middle" fill="#52514e">aircraft · maintainers · pilots</text>
+
+<!-- acts: thick -->
+<line x1="310" y1="150" x2="530" y2="150" stroke="#0b0b0b" stroke-width="7"/><path d="M528,138 L550,150 L528,162 Z" fill="#0b0b0b"/>
+<text x="428" y="108" font-size="14" text-anchor="middle" font-style="italic" fill="#0b0b0b">acts: grounds aircraft, orders parts</text>
+
+<!-- feedback: thin broken -->
+<g stroke="#0b0b0b" stroke-width="1.5" fill="none">
+  <line x1="550" y1="255" x2="505" y2="255"/>
+  <line x1="470" y1="255" x2="420" y2="255"/>
+  <line x1="352" y1="255" x2="316" y2="255" marker-end="url(#ah)"/>
+</g>
+<text x="428" y="238" font-size="14" text-anchor="middle" font-style="italic" fill="#0b0b0b">feedback</text>
+<!-- toll booth -->
+<g transform="translate(487,255)">
+  <rect x="-13" y="-22" width="26" height="22" fill="#fdeee6" stroke="#eb6834" stroke-width="1.5"/>
+  <path d="M-16,-22 L0,-32 L16,-22 Z" fill="#eb6834"/>
+  <line x1="13" y1="-6" x2="30" y2="-6" stroke="#eb6834" stroke-width="3"/>
+  <text y="20" font-size="12" text-anchor="middle" fill="#eb6834" font-weight="bold">fee</text>
+</g>
+<!-- queue of envelopes -->
+<g fill="#ffffff" stroke="#52514e" stroke-width="1">
+  <g transform="translate(424,262)"><rect width="16" height="11"/><path d="M0,0 L8,6 L16,0" fill="none"/></g>
+  <g transform="translate(386,262)"><rect width="16" height="11"/><path d="M0,0 L8,6 L16,0" fill="none"/></g>
+  <g transform="translate(405,262)"><rect width="16" height="11"/><path d="M0,0 L8,6 L16,0" fill="none"/></g>
+  <g transform="translate(367,262)"><rect width="16" height="11"/><path d="M0,0 L8,6 L16,0" fill="none"/></g>
+</g>
+<text x="400" y="292" font-size="12" text-anchor="middle" fill="#52514e" font-weight="bold">months</text>
+
+<!-- diverted segment to spreadsheet -->
+<path d="M620,280 C 620,340 560,370 470,380" fill="none" stroke="#eb6834" stroke-width="1.5" stroke-dasharray="6 4" marker-end="url(#aa)"/>
+<g transform="translate(330,352)">
+  <rect width="136" height="62" fill="#ffffff" stroke="#0b0b0b"/>
+  <g stroke="#c9c8c3"><line x1="0" y1="16" x2="136" y2="16"/><line x1="0" y1="31" x2="136" y2="31"/><line x1="0" y1="46" x2="136" y2="46"/><line x1="34" y1="0" x2="34" y2="62"/><line x1="68" y1="0" x2="68" y2="62"/><line x1="102" y1="0" x2="102" y2="62"/></g>
+  <text x="68" y="80" font-size="12" text-anchor="middle" fill="#0b0b0b" font-weight="bold">spreadsheet</text>
+  <text x="68" y="96" font-size="11" text-anchor="middle" fill="#52514e">the model people actually trust</text>
+</g>
+<text x="690" y="330" font-size="11" fill="#52514e">some of what the</text>
+<text x="690" y="344" font-size="11" fill="#52514e">maintainers know</text>
+<text x="690" y="358" font-size="11" fill="#52514e">never goes back at all</text>
+
+<text x="24" y="488" font-size="11" fill="#8a8984">After the GAO's findings on ALIS (Chapter 6). A regulator that can act strongly but hears weakly will act, strongly, on an old picture.</text>
+</svg>

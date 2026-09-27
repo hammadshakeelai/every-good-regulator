@@ -1,0 +1,241 @@
+n,list_section,organisation,trigger,mechanism_tags,url
+1,Config Errors,Allegro,LD,G L,https://allegro.tech/2018/08/postmortem-why-allegro-went-down.html
+2,Config Errors,Amazon,CH,G D M,https://aws.amazon.com/message/74876-2/
+3,Config Errors,CircleCI,CH,R M,https://discuss.circleci.com/t/incident-report-november-8-2021-jobs-stuck-in-a-not-running-state/41890
+4,Config Errors,CircleCI,OP,H F G,https://discuss.circleci.com/t/post-incident-report-april-4-2025-circleci-ui-loading-build-triggering-issues/53208
+5,Config Errors,Cloudflare,CH,G C,https://web.archive.org/web/20211006135542/https://blog.cloudflare.com/todays-outage-post-mortem-82515/
+6,Config Errors,Cloudflare,OP,H G,https://web.archive.org/web/20211016040522/https://blog.cloudflare.com/cloudflare-outage-on-july-17-2020/
+7,Config Errors,Cloudflare,CH,G,https://web.archive.org/web/20220621124002/https://blog.cloudflare.com/cloudflare-outage-on-june-21-2022/
+8,Config Errors,Cloudflare,CH,F,https://web.archive.org/web/20221112015610/https://blog.cloudflare.com/partial-cloudflare-outage-on-october-25-2022/
+9,Config Errors,Cloudflare,CH,G C,https://blog.cloudflare.com/cloudflare-incident-on-january-24th-2023/
+10,Config Errors,Cloudflare,UN,L,https://blog.cloudflare.com/1-1-1-1-lookup-failures-on-october-4th-2023/
+11,Config Errors,Cloudflare,CH,G D C,https://blog.cloudflare.com/18-november-2025-outage/
+12,Config Errors,Cloudflare,CH,G L C,https://blog.cloudflare.com/5-december-2025-outage/
+13,Config Errors,Cloudflare,CH,P G D,https://blog.cloudflare.com/cloudflare-outage-february-20-2026/
+14,Config Errors,Cloudflare,OP,H G D,https://blog.cloudflare.com/cloudflare-incident-on-february-6-2025/
+15,Config Errors,Cloudflare,OP,H,https://blog.cloudflare.com/cloudflare-incident-march-21-2025/
+16,Config Errors,Cloudflare,CH,P L C,https://blog.cloudflare.com/cloudflare-incident-on-june-20-2024/
+17,Config Errors,Cloudflare,CH,G C,https://blog.cloudflare.com/cloudflare-incident-on-october-30-2023/
+18,Config Errors,Cloudflare,CH,C,https://blog.cloudflare.com/deep-dive-into-cloudflares-sept-12-dashboard-and-api-outage/
+19,Config Errors,Cloudflare,CH,G D,https://blog.cloudflare.com/route-leak-incident-january-22-2026/
+20,Config Errors,Datadog,EX,G C L,https://www.datadoghq.com/blog/2020-09-25-infrastructure-connectivity-issue/
+21,Config Errors,Enom,CH,C,https://enomstatus.com/incidents/03q064h6rb7x
+22,Config Errors,Etsy,OP,C,https://web.archive.org/web/20211201033341/https://codeascraft.com/2012/01/23/solr-bittorrent-index-replication/
+23,Config Errors,Facebook,CH,G C R,https://engineering.fb.com/2021/10/05/networking-traffic/outage-details/
+24,Config Errors,Facebook,CH,G C,https://blog.thousandeyes.com/facebook-outage-deep-dive/
+25,Config Errors,Firefox,EX,L,https://web.archive.org/web/20250314111052/https://hacks.mozilla.org/2022/02/retrospective-and-technical-details-on-the-recent-firefox-outage/
+26,Config Errors,GitHub,CH,G R L,https://github.blog/news-insights/the-library/dns-outage-post-mortem/
+27,Config Errors,GitHub,CH,P G C,https://github.blog/news-insights/company-news/github-availability-report-august-2024/
+28,Config Errors,GitHub,CH,G P F C,https://github.blog/news-insights/company-news/github-availability-report-february-2026/
+29,Config Errors,GoCardless,HW,L,https://gocardless.com/blog/incident-review-api-and-dashboard-outage-on-10th-october/
+30,Config Errors,Google,OP,D G F,https://cloud.google.com/blog/products/infrastructure/details-of-google-cloud-gcve-incident
+31,Config Errors,Google,CH,G D C,https://status.cloud.google.com/incident/compute/16007
+32,Config Errors,Google,CH,G D C,https://googleblog.blogspot.com/2014/01/todays-outage-for-several-google.html
+33,Config Errors,Google,CH,G C,https://web.archive.org/web/20151008061104/http://code.google.com/p/chromium/issues/detail?id=165171
+34,Config Errors,Google,OP,H D G,https://googleblog.blogspot.com/2009/01/this-site-may-harm-your-computer-on.html
+35,Config Errors,Google,CH,G,https://status.cloud.google.com/incident/compute/17007#5659118702428160
+36,Config Errors,Google,CH,C L,https://status.cloud.google.com/incident/storage/19002
+37,Config Errors,Google,CH,L C,https://status.cloud.google.com/incident/cloud-networking/19009
+38,Config Errors,Google,CH,L C,https://status.cloud.google.com/incidents/1xkAB1KmLrh5g3v9ZEZ7
+39,Config Errors,Google,UN,L G C,https://status.cloud.google.com/incidents/6PM5mNd43NbMqjCZ5REh
+40,Config Errors,Google,CH,L,https://status.cloud.google.com/incidents/vLsxuKoRvykNHW3nnhsJ
+41,Config Errors,Heroku,CH,G,https://status.heroku.com/incidents/1091
+42,Config Errors,Heroku,CH,G,https://blog.heroku.com/how-i-broke-git-push-heroku-main
+43,Config Errors,Keepthescore,OP,H,https://web.archive.org/web/20201101133510/https://keepthescore.co/blog/posts/deleting_the_production_database/
+44,Config Errors,Microsoft,CH,G C,https://azure.microsoft.com/en-us/blog/update-on-azure-storage-service-interruption/
+45,Config Errors,NPM,CH,D L,https://blog.npmjs.org/post/74949623024/2014-01-28-outage-postmortem.html
+46,Config Errors,OWASA,OP,H,https://web.archive.org/web/20210226170650/https://indyweek.com/news/archives/human-error-caused-owasa-fluoride-overdose-owasa-sorry/
+47,Config Errors,PagerDuty,CH,F G C,https://status.pagerduty.com/incidents/vbp7ht2647l8
+48,Config Errors,Razorpay,HW,L D,https://web.archive.org/web/20250207075402/https://razorpay.com/blog/day-of-rds-multi-az-failover/
+49,Config Errors,rust-lang,CH,G,https://blog.rust-lang.org/inside-rust/2023/02/08/dns-outage-portmortem.html
+50,Config Errors,rust-lang,CH,,https://blog.rust-lang.org/inside-rust/2023/07/21/crates-io-postmortem.html
+51,Config Errors,Stack Overflow,CH,P,https://web.archive.org/web/20201020103424/https://stackstatus.net/post/96025967369/outage-post-mortem-august-25th-2014
+52,Config Errors,Sentry,CH,D,https://blog.sentry.io/2016/06/14/security-incident-june-12-2016
+53,Config Errors,TravisCI,OP,L,https://www.traviscistatus.com/incidents/khzk8bg4p9sy
+54,Config Errors,TravisCI,CH,P G D,https://web.archive.org/web/20221220114914/https://blog.travis-ci.com/2016-09-30-the-day-we-deleted-our-vm-images/
+55,Config Errors,TravisCI,CH,R,https://www.traviscistatus.com/incidents/sxrh0l46czqn
+56,Config Errors,TravisCI,OP,D H,https://www.traviscistatus.com/incidents/z2b3lz2kwcfp
+57,Config Errors,TUI,CH,D F,https://assets.publishing.service.gov.uk/media/604f423be90e077fdf88493f/Boeing_737-8K5_G-TAWG_04-21.pdf
+58,Config Errors,Turso,CH,D R,https://blog.turso.tech/incident-2023-12-04-data-leak-and-loss-in-some-free-tier-databases-7cba5bc7
+59,Config Errors,Valve,CH,G,https://blog.thousandeyes.com/steam-outage-monitor-data-center-connectivity/
+60,Hardware/Power Failures,Amazon,HW,B,https://aws.amazon.com/message/2329B7/
+61,Hardware/Power Failures,Amazon,HW,B,https://aws.amazon.com/message/67457/
+62,Hardware/Power Failures,Amazon,HW,B P,https://aws.amazon.com/message/4372T8/
+63,Hardware/Power Failures,Amazon,HW,B P M H C,https://aws.amazon.com/message/656481/
+64,Hardware/Power Failures,Amazon,HW,P B C L,https://aws.amazon.com/message/56489/
+65,Hardware/Power Failures,ARPANET,HW,D C P,https://datatracker.ietf.org/doc/html/rfc789.html
+66,Hardware/Power Failures,Cloudflare,HW,C L,https://web.archive.org/web/20211015231917/https://blog.cloudflare.com/a-byzantine-failure-in-the-real-world/
+67,Hardware/Power Failures,Cloudflare,HW,B,https://blog.cloudflare.com/post-mortem-on-cloudflare-control-plane-and-analytics-outage/
+68,Hardware/Power Failures,Cloudflare,HW,B P L,https://blog.cloudflare.com/major-data-center-power-failure-again-cloudflare-code-orange-tested/
+69,Hardware/Power Failures,FirstEnergy / General Electric,HW,F C L,https://en.wikipedia.org/wiki/Northeast_blackout_of_2003
+70,Hardware/Power Failures,GitHub,HW,,https://github.com/blog/2106-january-28th-incident-report
+71,Hardware/Power Failures,Google,HW,B,https://status.cloud.google.com/incident/compute/15056#5719570367119360
+72,Hardware/Power Failures,Google,HW,B,https://status.cloud.google.com/incidents/fmEL9i2fArADKawkZAa2
+73,Hardware/Power Failures,PythonAnywhere,HW,C,https://blog.pythonanywhere.com/189/
+74,Hardware/Power Failures,Sun,HW,F L,https://www.forbes.com/forbes/2000/1113/6613068a.html#6d1bdc036162
+75,Conflicts,Amazon,UN,G L C P,https://aws.amazon.com/message/101925/
+76,Conflicts,CCP Games,CH,L,https://community.eveonline.com/news/dev-blogs/about-the-boot.ini-issue/
+77,Conflicts,GitHub,OP,P C M,https://github.blog/news-insights/the-library/downtime-last-saturday/
+78,Conflicts,GitHub,OP,P R M,https://blog.github.com/2018-10-30-oct21-post-incident-analysis/
+79,Conflicts,GitHub,OP,G C,https://github.blog/news-insights/company-news/github-availability-report-october-2020/
+80,Conflicts,GoCardless,CH,L,https://gocardless.com/blog/zero-downtime-postgres-migrations-the-hard-parts/
+81,Conflicts,Google,CH,G L,https://status.cloud.google.com/incident/compute/17003#5660850647990272
+82,Conflicts,Google,HW,C,https://status.cloud.google.com/incidents/eo76pxZiDgWVz4z3kmUv
+83,Conflicts,incident.io,CH,L D,https://incident.io/blog/one-two-skip-a-few
+84,Conflicts,Knight Capital,CH,L D,https://dougseven.com/2014/04/17/knightmare-a-devops-cautionary-tale/
+85,Conflicts,WebKit code repository,CH,P L,https://web.archive.org/web/20210306015541/https://digital.ai/catalyst-blog/subversion-sha1-collision-problem-statement-prevention-and-remediation-options
+86,Time,Azure,TM,T L,https://azure.microsoft.com/en-us/blog/summary-of-windows-azure-service-disruption-on-feb-29th-2012/
+87,Time,Cloudflare,TM,T L,https://web.archive.org/web/20211104160742/https://blog.cloudflare.com/how-and-why-the-leap-second-affected-cloudflare-dns/
+88,Time,Linux,TM,T L,https://web.archive.org/web/20220427012208/https://lkml.org/lkml/2009/1/2/373
+89,Time,Linux,TM,T L C,https://web.archive.org/web/20220320100036/https://lkml.org/lkml/2012/7/1/203
+90,Time,Mozilla,TM,T F,https://web.archive.org/web/20250303152906/https://hacks.mozilla.org/2019/07/add-ons-outage-post-mortem-result/
+91,Database,CircleCI,LD,P R M,https://status.circleci.com/incidents/8rklh3qqckp1
+92,Database,CircleCI,CH,L,https://discuss.circleci.com/t/post-incident-report-april-4-2025-delays-in-starting-workflows/53113
+93,Database,GitHub,CH,P L C,https://github.blog/news-insights/the-library/github-availability-this-week/
+94,Database,GitHub,LD,D L,https://github.blog/news-insights/company-news/february-service-disruptions-post-incident-analysis/
+95,Database,GitHub,LD,L F,https://github.blog/news-insights/company-news/github-availability-report-may-2021/
+96,Database,GitHub,LD,L C,https://github.blog/2022-03-23-an-update-on-recent-service-disruptions/
+97,Database,GitHub,CH,P R C,https://github.blog/news-insights/company-news/addressing-githubs-recent-availability-issues/
+98,Database,GitHub,CH,L C F,https://github.blog/news-insights/company-news/addressing-githubs-recent-availability-issues-2/
+99,Database,GitHub,CH,L C,https://github.blog/2021-12-01-github-availability-report-november-2021/
+100,Database,Heroku,LD,L H,https://status.heroku.com/incidents/2558
+101,Database,incident.io,CH,L F,https://incident.io/blog/database-performance
+102,Database,incident.io,CH,L M,https://status.incident.io/incidents/01JRDFKAGE07YYDY0KZR137BX3/write-up
+103,Uncategorized,Allegro,UN,C,https://allegro.tech/2015/01/allegro-cast-post-mortem.html
+104,Uncategorized,Amazon,OP,H C G R,https://aws.amazon.com/message/41926/
+105,Uncategorized,Amazon,UN,L C,https://web.archive.org/web/20220403060108/https://status.aws.amazon.com/s3-20080720.html
+106,Uncategorized,Amazon,OP,H L C,https://aws.amazon.com/message/65648/
+107,Uncategorized,Amazon,EX,L F R,https://aws.amazon.com/message/680342/
+108,Uncategorized,Amazon,OP,H G,https://aws.amazon.com/message/680587/
+109,Uncategorized,Amazon,EX,P C,https://aws.amazon.com/message/5467D2/
+110,Uncategorized,Amazon,CH,L C,https://aws.amazon.com/message/11201/
+111,Uncategorized,Amazon,CH,G P C L,https://aws.amazon.com/message/12721/
+112,Uncategorized,Amazon,HW,P C M R,https://aws.amazon.com/message/65649/
+113,Uncategorized,Amazon,LD,L P M,https://aws.amazon.com/message/17908/
+114,Uncategorized,Amazon,LD,L C,https://aws.amazon.com/message/061323/
+115,Uncategorized,Amazon,CH,G P C,https://aws.amazon.com/message/073024/
+116,Uncategorized,AppNexus,CH,L F,https://web.archive.org/web/20250505112812/https://medium.com/xandr-tech/2013-09-17-outage-postmortem-586b19ae4307
+117,Uncategorized,AT&T,CH,L C P,https://users.csc.calpoly.edu/~jdalbey/SWE/Papers/att_collapse.html
+118,Uncategorized,Atlassian,OP,R,https://www.atlassian.com/engineering/post-incident-review-april-2022-outage
+119,Uncategorized,Basecamp,EX,,https://signalvnoise.com/posts/3729-basecamp-network-attack-postmortem
+120,Uncategorized,Basecamp,LD,L,https://web.archive.org/web/20220529044310/https://m.signalvnoise.com/postmortem-on-the-read-only-outage-of-basecamp-on-november-9th-2018/
+121,Uncategorized,BBC Online,LD,P C,https://www.bbc.co.uk/blogs/internet/entries/a37b0470-47d4-3991-82bb-a7d5b8803771
+122,Uncategorized,Bintray,EX,S F,https://web.archive.org/web/20210421222929/https://status.bintray.com/incidents/w4dfr0rpznkt
+123,Uncategorized,Bitly,EX,S,https://blog.bitly.com/post/85260908544/more-detail
+124,Uncategorized,BrowserStack,EX,S L,https://www.browserstack.com/attack-and-downtime-on-9-November
+125,Uncategorized,Buildkite,CH,C,https://building.buildkite.com/outage-post-mortem-for-august-23rd-82b619a3679b
+126,Uncategorized,Bungie,CH,R,https://web.archive.org/web/20230504222953/https://www.bungie.net/en/News/Article/48723
+127,Uncategorized,CCP Games,CH,L C,https://community.eveonline.com/news/dev-blogs/behind-the-scenes-of-a-long-eve-online-downtime/
+128,Uncategorized,CCP Games,UN,L F,https://community.eveonline.com/news/dev-blogs/sleeping-beauty/
+129,Uncategorized,Chef.io,LD,P,https://www.chef.io/blog/2014/07/10/supermarket-intermittent-unresponsiveness-postmortem/
+130,Uncategorized,CircleCI,EX,L C,https://circleci.statuspage.io/incidents/hr0mm9xmm3x6
+131,Uncategorized,CircleCI,EX,S F,https://circleci.com/blog/jan-4-2023-incident-report/
+132,Uncategorized,CircleCI,EX,S M,https://web.archive.org/web/20180121023549/http://circleci.com/blog/mongohq-security-incident-response/
+133,Uncategorized,CircleCI,CH,D F L C,https://discuss.circleci.com/t/postmortem-march-26-april-10-workflow-delay-incidents/30060
+134,Uncategorized,CircleCI,CH,D L C,https://discuss.circleci.com/t/postmortem-may-21-2021-delay-in-starting-docker-jobs-machine-remote-docker-environments-blocked/40274
+135,Uncategorized,CircleCI,CH,L D R C,https://status.circleci.com/incidents/dcqb3fykhgvg
+136,Uncategorized,Cloudflare,CH,S L,https://web.archive.org/web/20211029020126/https://blog.cloudflare.com/incident-report-on-memory-leak-caused-by-cloudflare-parser-bug/
+137,Uncategorized,Cloudflare,CH,P G C,https://web.archive.org/web/20211006055154/https://blog.cloudflare.com/details-of-the-cloudflare-outage-on-july-2-2019/
+138,Uncategorized,Cloudflare,LD,P C L,https://blog.cloudflare.com/cloudflare-incident-on-august-21-2025/
+139,Uncategorized,Cloudflare,EX,C,https://blog.cloudflare.com/cloudflare-service-outage-june-12-2025/
+140,Uncategorized,Cloudflare,EX,S,https://blog.cloudflare.com/how-cloudflare-mitigated-yet-another-okta-compromise/
+141,Uncategorized,Cloudflare,EX,S,https://blog.cloudflare.com/response-to-salesloft-drift-incident/
+142,Uncategorized,CrowdStrike,CH,G P F C,https://www.crowdstrike.com/falcon-content-update-remediation-and-guidance-hub/
+143,Uncategorized,Datadog,CH,G C,https://www.datadoghq.com/blog/2023-03-08-multiregion-infrastructure-connectivity-issue/
+144,Uncategorized,Discord,UN,C,https://status.discordapp.com/incidents/dj3l6lw926kl
+145,Uncategorized,Discord,EX,P C F M,https://status.discordapp.com/incidents/qk9cdgnqnhcn
+146,Uncategorized,Dropbox,CH,L,https://blogs.dropbox.com/tech/2014/01/outage-post-mortem/
+147,Uncategorized,Duo,LD,C F,https://status.duo.com/incidents/4w07bmvnt359
+148,Uncategorized,Epic Games,LD,C,https://web.archive.org/web/20220430011642/https://www.epicgames.com/fortnite/en-US/news/postmortem-of-service-outage-at-3-4m-ccu
+149,Uncategorized,European Space Agency,CH,L D,https://en.wikipedia.org/wiki/Cluster_%28spacecraft%29?oldid=217305667
+150,Uncategorized,Elastic,UN,,https://www.elastic.co/blog/elastic-cloud-january-18-2019-incident-report
+151,Uncategorized,Elastic,UN,,https://www.elastic.co/blog/elastic-cloud-incident-report-feburary-4-2019
+152,Uncategorized,ESLint,EX,S,https://eslint.org/blog/2018/07/postmortem-for-malicious-package-publishes
+153,Uncategorized,Etsy,CH,L,https://blog.etsy.com/news/2012/demystifying-site-outages/
+154,Uncategorized,Fastly,CH,L G C,https://www.fastly.com/blog/summary-of-june-8-outage
+155,Uncategorized,Flowdock,LD,C,https://web.archive.org/web/20220704223244/https://flowdock-resources.s3.amazonaws.com/legal/Flowdock-RCA-For-Incident-On-2020-04-21.pdf
+156,Uncategorized,Foursquare,LD,F C,https://web.archive.org/web/20230602082218/https://news.ycombinator.com/item?id=1769761
+157,Uncategorized,Gentoo,EX,S,https://wiki.gentoo.org/wiki/Github/2018-06-28
+158,Uncategorized,GitHub,EX,,https://githubengineering.com/ddos-incident-report/
+159,Uncategorized,GitHub,CH,P L F,https://github.blog/news-insights/the-library/network-problems-last-friday/
+160,Uncategorized,GitHub,EX,F,https://github.blog/news-insights/the-library/denial-of-service-attacks/
+161,Uncategorized,GitHub,CH,P G C,https://github.blog/news-insights/company-news/github-availability-report-july-2024/
+162,Uncategorized,GitHub,CH,C R M,https://github.blog/news-insights/company-news/github-availability-report-october-2024/
+163,Uncategorized,Gitlab,OP,H,https://docs.google.com/document/d/1ScqXAdb6BjhsDzCo3qdPYbt1uULzgZqPO8zHeHHarS0/preview?sle=true&hl=en&forcehl=1#heading=h.dfbilqgnc5sf
+164,Uncategorized,Gitlab,LD,H,https://about.gitlab.com/2017/02/10/postmortem-of-database-outage-of-january-31/
+165,Uncategorized,Google,UN,L,https://gist.github.com/jomo/2bae3821acb433d0446d
+166,Uncategorized,Google,UN,G P C M,https://status.cloud.google.com/incidents/X8SNkK2BPyCrc1sveeiu
+167,Uncategorized,Google,UN,,https://www.google.com/appsstatus/dashboard/incidents/k71P8nHp32hgcMSsC3mR
+168,Uncategorized,Google,LD,L C,https://status.cloud.google.com/incidents/mREMLwZFe3FuLLn3zfTw
+169,Uncategorized,Google,CH,G D L C R,https://status.cloud.google.com/incidents/ow5i3PPK96RduMcb1SsW
+170,Uncategorized,GPS/GLONASS,CH,G R,https://web.archive.org/web/20250903124227/https://www.gps.gov/governance/advisory/meetings/2014-06/beutler1.pdf
+171,Uncategorized,Healthcare.gov,OP,F,https://web.archive.org/web/20201108122248/https://www.bloomberg.com/opinion/articles/2015-09-16/how-healthcare-gov-went-so-so-wrong
+172,Uncategorized,Heroku,OP,H G,https://status.heroku.com/incidents/642?postmortem
+173,Uncategorized,Heroku,CH,D L,https://engineering.heroku.com/blogs/2017-02-15-filesystem-corruption-on-heroku-dynos/
+174,Uncategorized,Heroku,EX,C,https://status.heroku.com/incidents/1042
+175,Uncategorized,Heroku,EX,S,https://blog.heroku.com/april-2022-incident-review
+176,Uncategorized,Heroku,CH,L F P C,https://status.heroku.com/incidents/2451
+177,Uncategorized,Homebrew,EX,S,https://web.archive.org/web/20210813020247/https://brew.sh/2018/08/05/security-incident-disclosure/
+178,Uncategorized,Honeycomb,LD,C,https://www.honeycomb.io/blog/incident-resolution-september-retrospective/
+179,Uncategorized,Honeycomb,UN,F,https://www.honeycomb.io/blog/incident-review-designed-failing/
+180,Uncategorized,Honeycomb,UN,,https://www.honeycomb.io/blog/incident-review-shepherd-cache-delays/
+181,Uncategorized,Honeycomb,UN,,https://www.honeycomb.io/blog/incident-review-what-comes-up-must-first-go-down/
+182,Uncategorized,incident.io,EX,D F,https://incident.io/blog/intermittent-downtime
+183,Uncategorized,incident.io,CH,L F,https://incident.io/blog/clouds-caches-and-connection-conundrums
+184,Uncategorized,incident.io,EX,C R,https://incident.io/blog/service-disruption-october-20th-2025
+185,Uncategorized,Indian Electricity Grid,LD,P C,https://web.archive.org/web/20220124104632/https://cercind.gov.in/2012/orders/Final_Report_Grid_Disturbance.pdf
+186,Uncategorized,Instapaper,LD,L,https://web.archive.org/web/20211124170124/https://medium.com/making-instapaper/instapaper-outage-cause-recovery-3c32a7e9cc5f
+187,Uncategorized,Intel,CH,L F,https://web.archive.org/web/20241105190743/http://42gems.com/blog/?p=735
+188,Uncategorized,Joyent,UN,L P,https://web.archive.org/web/20220528044329/https://www.joyent.com/blog/manta-postmortem-7-27-2015
+189,Uncategorized,Joyent,OP,H G D C M,https://web.archive.org/web/20220406095752/https://www.joyent.com/blog/postmortem-for-outage-of-us-east-1-may-27-2014
+190,Uncategorized,Kickstarter,UN,F L,https://web.archive.org/web/20170728131458/https://kickstarter.engineering/the-day-the-replication-died-e543ba45f262
+191,Uncategorized,Kings College London,HW,B,https://regmedia.co.uk/2017/02/23/kcl_external_review.pdf
+192,Uncategorized,Launchdarkly,CH,L,https://status.launchdarkly.com/incidents/yltrp45vtxm2
+193,Uncategorized,Launchdarkly,EX,C P R,https://launchdarkly.com/blog/what-happened-what-we-learned-and-how-were-improving/
+194,Uncategorized,Mailgun,OP,H C,https://status.mailgun.com/incidents/p9nxxql8g9rh
+195,Uncategorized,Mandrill,LD,L,https://mailchimp.com/what-we-learned-from-the-recent-mandrill-outage/
+196,Uncategorized,Medium,CH,,https://web.archive.org/web/20160426163728/https://medium.com/medium-eng/the-curious-case-of-disappearing-polish-s-fa398313d4df
+197,Uncategorized,Metrist,EX,C F,https://web.archive.org/web/20230927050430/https://metrist.io/blog/how-we-found-azures-unannounced-breaking-change/
+198,Uncategorized,NASA,CH,L,https://www.doneyles.com/LM/Tales.html
+199,Uncategorized,NASA,CH,D F,https://en.wikipedia.org/wiki/Mars_Climate_Orbiter
+200,Uncategorized,NASA,UN,L M,https://web.archive.org/web/20161230103247/https://research.microsoft.com/en-us/um/people/mbj/Mars_Pathfinder/Authoritative_Account.html
+201,Uncategorized,Netflix,EX,,https://netflixtechblog.com/post-mortem-of-october-22-2012-aws-degradation-efcee3ab40d5
+202,Uncategorized,North American Electric Power System,HW,C F,https://www3.epa.gov/region1/npdes/merrimackstation/pdfs/ar/AR-1165.pdf
+203,Uncategorized,Okta,EX,S,https://www.okta.com/blog/2022/03/oktas-investigation-of-the-january-2022-compromise/
+204,Uncategorized,OpenAI,CH,L S,https://web.archive.org/web/20240426015133/https://openai.com/blog/march-20-chatgpt-outage
+205,Uncategorized,PagerDuty,EX,B C,https://web.archive.org/web/20211019062735/https://www.pagerduty.com/blog/outage-post-mortem-april-13-2013/
+206,Uncategorized,PagerDuty,EX,C,https://status.pagerduty.com/incidents/70m30bh7qfmx
+207,Uncategorized,Parity,CH,S F L,https://web.archive.org/web/20180830181639/https://paritytech.io/the-multi-sig-hack-a-postmortem/
+208,Uncategorized,Platform.sh,OP,L,https://web.archive.org/web/20201202234639/https://medium.com/@florian_7764/technical-post-mortem-of-the-august-incident-82ab4c3d6547
+209,Uncategorized,Reddit,CH,,https://web.archive.org/web/20221029203405/https://www.reddit.com/r/announcements/comments/4y0m56/why_reddit_was_down_on_aug_11/
+210,Uncategorized,Reddit,CH,L C,https://web.archive.org/web/20230727225235/https://www.reddit.com/r/RedditEng/comments/11xx5o0/you_broke_reddit_the_piday_outage/
+211,Uncategorized,Roblox,CH,L C R,https://blog.roblox.com/2022/01/roblox-return-to-service-10-28-10-31-2021/
+212,Uncategorized,Salesforce,HW,B C P,https://help.salesforce.com/apex/HTViewSolution?urlname=Root-Cause-Message-for-Disruption-of-Service-on-NA14-May-2016&language=en_US
+213,Uncategorized,Salesforce,CH,P G C,https://help.salesforce.com/s/articleView?id=000396429&type=1
+214,Uncategorized,Sentry,LD,L,https://blog.sentry.io/2015/07/23/transaction-id-wraparound-in-postgres
+215,Uncategorized,Shapeshift,EX,S,http://web.archive.org/web/20160610080136/https://www.scribd.com/doc/309574927/ShapeShift-Post-Mortem-Public
+216,Uncategorized,Skyliner,EX,L,https://web.archive.org/web/20251230063242/https://blog.skyliner.io/post-mortem-outages-on-1-19-17-and-1-23-17-3f65cc6f693e
+217,Uncategorized,Slack,UN,C,https://web.archive.org/web/20181208123409/https://slackhq.com/this-was-not-normal-really
+218,Uncategorized,Slack,EX,C R,https://slack.engineering/slacks-outage-on-january-4th-2021/
+219,Uncategorized,Slack,OP,C,https://slack.engineering/slacks-incident-on-2-22-22/
+220,Uncategorized,Spotify,UN,C,https://labs.spotify.com/2013/06/04/incident-management-at-spotify/
+221,Uncategorized,Square,EX,C,https://web.archive.org/web/20210818034431/https://medium.com/square-corner-blog/incident-summary-2017-03-16-2f65be39297
+222,Uncategorized,Stackdriver,UN,C,https://www.stackdriver.com/post-mortem-october-23-stackdriver-outage/
+223,Uncategorized,Stack Exchange,CH,C,http://web.archive.org/web/20150404235419/https://stackstatus.net/post/115305251014/outage-postmortem-march-31-2015
+224,Uncategorized,Stack Exchange,UN,P L,http://web.archive.org/web/20160720200842/https://stackstatus.net/post/147710624694/outage-postmortem-july-20-2016
+225,Uncategorized,Stack Exchange,CH,S L,https://meta.stackoverflow.com/q/340960/2422776
+226,Uncategorized,Stack Exchange,UN,L C,http://web.archive.org/web/20170130231315/https://stackstatus.net/post/156407746074/outage-postmortem-january-24-2017
+227,Uncategorized,Strava,LD,L,https://engineering.strava.com/the-upload-outage-of-july-29-2014/
+228,Uncategorized,Stripe,OP,H,https://support.stripe.com/questions/outage-postmortem-2015-10-08-utc
+229,Uncategorized,Sweden,CH,D F,https://www.pri.org/stories/2012-02-23/new-clues-emerge-centuries-old-swedish-shipwreck
+230,Uncategorized,Tarsnap,UN,G L M,https://mail.tarsnap.com/tarsnap-announce/msg00035.html
+231,Uncategorized,Telstra,HW,D,https://web.archive.org/web/20170202055452/https://www.businessinsider.com.au/a-fire-in-a-telstra-exchange-is-causing-flight-delays-and-network-outages-2017-2
+232,Uncategorized,Therac-25,UN,L,http://sunnyday.mit.edu/papers/therac.pdf
+233,Uncategorized,trivago,OP,H G,https://tech.trivago.com/2021/10/05/postmortem-removing-all-users-from-github.com/trivago/
+234,Uncategorized,Twilio,EX,P C,https://www.twilio.com/blog/2013/07/billing-incident-post-mortem-breakdown-analysis-and-root-cause.html
+235,Uncategorized,Twilio,UN,,https://status.twilio.com/incidents/wdrlk4qps0z1
+236,Uncategorized,Valve,CH,F,https://github.com/valvesoftware/steam-for-linux/issues/3671
+237,Uncategorized,Xubuntu,EX,S,https://lists.ubuntu.com/archives/xubuntu-users/2025-November/012210.html
+238,Uncategorized,Yeller,EX,F,https://web.archive.org/web/20201018145502/http://yellerapp.com/posts/2014-08-04-postmortem1.html
+239,Uncategorized,Zerodha,LD,L,https://zerodha.com/marketintel/bulletin/229363/post-mortem-of-technical-issue-august-29-2019
+240,Uncategorized,Zerodha,HW,B,https://zerodha.com/marketintel/bulletin/105569/postmortem-trading-and-hanging-orders-on-12th-april-2018

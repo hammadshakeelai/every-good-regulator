@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 440" font-family="Georgia, serif" role="img" aria-labelledby="t d">
+<title id="t">Figure 8.2 — Holes in every layer</title>
+<desc id="d">Four stacked defensive layers, labelled design, automated checks, procedures and people, each with a few holes. One grey trajectory passes through holes in the first two layers and is caught at the fourth by a person holding up a hand. A second, orange trajectory finds a hole in every layer at once and passes all the way through. Along the bottom: latent flaws, always present.</desc>
+<defs>
+  <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a8984"/></marker>
+  <marker id="aa" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#eb6834"/></marker>
+  <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20,0 H0 V20" fill="none" stroke="#efeee9" stroke-width="1"/></pattern>
+</defs>
+<rect width="860" height="440" fill="#fcfcfb"/><rect width="860" height="440" fill="url(#grid)"/>
+<text x="24" y="36" font-size="20" font-weight="bold" fill="#0b0b0b">Holes in every layer</text>
+<text x="24" y="58" font-size="13" fill="#52514e">Defences are never whole. Most days the holes don't line up — and people catch what gets through.</text>
+
+<!-- layers as skewed slabs -->
+<g stroke="#0b0b0b" stroke-width="1.5">
+  <path d="M200,110 L250,90 L250,330 L200,350 Z" fill="#ffffff" fill-opacity="0.85"/>
+  <path d="M340,110 L390,90 L390,330 L340,350 Z" fill="#ffffff" fill-opacity="0.85"/>
+  <path d="M480,110 L530,90 L530,330 L480,350 Z" fill="#ffffff" fill-opacity="0.85"/>
+  <path d="M620,110 L670,90 L670,330 L620,350 Z" fill="#ffffff" fill-opacity="0.85"/>
+</g>
+<g font-size="13" font-weight="bold" text-anchor="middle" fill="#0b0b0b"><text x="225" y="376">design</text><text x="365" y="376">automated</text><text x="365" y="392">checks</text><text x="505" y="376">procedures</text><text x="645" y="376">people</text></g>
+<!-- holes -->
+<g fill="#fcfcfb" stroke="#8a8984">
+  <ellipse cx="225" cy="160" rx="8" ry="12"/><ellipse cx="225" cy="230" rx="8" ry="12"/><ellipse cx="225" cy="300" rx="8" ry="12"/>
+  <ellipse cx="365" cy="140" rx="8" ry="12"/><ellipse cx="365" cy="230" rx="8" ry="12"/><ellipse cx="365" cy="280" rx="8" ry="12"/>
+  <ellipse cx="505" cy="190" rx="8" ry="12"/><ellipse cx="505" cy="230" rx="8" ry="12"/><ellipse cx="505" cy="310" rx="8" ry="12"/>
+  <ellipse cx="645" cy="150" rx="8" ry="12"/><ellipse cx="645" cy="230" rx="8" ry="12"/><ellipse cx="645" cy="270" rx="8" ry="12"/>
+</g>
+<!-- caught trajectory -->
+<path d="M90,170 L225,160 L365,140 L505,190 L585,200" fill="none" stroke="#8a8984" stroke-width="2" stroke-dasharray="4 4" marker-end="url(#ah)"/>
+<g fill="none" stroke="#0b0b0b" stroke-width="1.5">
+  <circle cx="600" cy="186" r="7"/><line x1="600" y1="193" x2="600" y2="216"/><line x1="600" y1="216" x2="593" y2="232"/><line x1="600" y1="216" x2="607" y2="232"/><line x1="600" y1="200" x2="590" y2="188"/><line x1="600" y1="200" x2="611" y2="208"/>
+</g>
+<text x="690" y="170" font-size="11" fill="#52514e">caught by a person —</text>
+<text x="690" y="184" font-size="11" fill="#52514e">and nobody writes it down</text>
+<text x="90" y="160" font-size="11" fill="#52514e">most days</text>
+<!-- through trajectory -->
+<path d="M90,232 L800,230" fill="none" stroke="#eb6834" stroke-width="3" marker-end="url(#aa)"/>
+<text x="90" y="252" font-size="11" fill="#eb6834" font-weight="bold">the day the</text><text x="90" y="266" font-size="11" fill="#eb6834" font-weight="bold">holes line up</text>
+<text x="800" y="252" font-size="12" fill="#eb6834" text-anchor="end" font-weight="bold">incident</text>
+
+<text x="430" y="418" font-size="12" text-anchor="middle" fill="#52514e" font-style="italic">latent flaws: always present · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·</text>
+<text x="24" y="434" font-size="10" fill="#8a8984">After Richard Cook, "How Complex Systems Fail" (Chapter 8): many imperfect defences, and people who catch what gets through.</text>
+</svg>

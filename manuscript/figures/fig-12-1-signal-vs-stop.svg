@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 500" font-family="Georgia, serif" role="img" aria-labelledby="t d">
+<title id="t">Figure 12.1 — Signal, or stop</title>
+<desc id="d">Two versions of the same production line. On the left, a worker who sees a problem can only send a signal; it travels up through three layers of management, each with a delay, before a decision comes back down, while the line keeps moving and defective units pile up. On the right, the worker pulls a cord, the line halts at once, and a team leader comes straight to the worker's side.</desc>
+<defs>
+  <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0b0b0b"/></marker>
+  <marker id="aa" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#eb6834"/></marker>
+  <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20,0 H0 V20" fill="none" stroke="#efeee9" stroke-width="1"/></pattern>
+  <g id="clock"><circle r="8" fill="#ffffff" stroke="#52514e"/><line x1="0" y1="0" x2="0" y2="-5" stroke="#52514e"/><line x1="0" y1="0" x2="4" y2="0" stroke="#52514e"/></g>
+  <g id="person" fill="none" stroke="#0b0b0b" stroke-width="1.5"><circle cx="0" cy="-26" r="6"/><line x1="0" y1="-20" x2="0" y2="-5"/><line x1="0" y1="-5" x2="-6" y2="8"/><line x1="0" y1="-5" x2="6" y2="8"/><line x1="0" y1="-15" x2="-8" y2="-9"/></g>
+</defs>
+<rect width="860" height="500" fill="#fcfcfb"/>
+<rect width="860" height="500" fill="url(#grid)"/>
+<text x="24" y="36" font-size="20" font-weight="bold" fill="#0b0b0b">Signal, or stop</text>
+<text x="24" y="58" font-size="13" fill="#52514e">The same line, the same worker, the same problem. The difference is who may decide.</text>
+<line x1="430" y1="80" x2="430" y2="470" stroke="#c9c8c3" stroke-dasharray="4 4"/>
+
+<!-- LEFT: SIGNAL -->
+<text x="215" y="92" font-size="16" font-weight="bold" text-anchor="middle" fill="#0b0b0b">SIGNAL</text>
+<g font-size="12" text-anchor="middle" fill="#0b0b0b">
+  <rect x="170" y="110" width="110" height="30" fill="#ffffff" stroke="#0b0b0b"/><text x="225" y="130">Director</text>
+  <rect x="170" y="170" width="110" height="30" fill="#ffffff" stroke="#0b0b0b"/><text x="225" y="190">Manager</text>
+  <rect x="170" y="230" width="110" height="30" fill="#ffffff" stroke="#0b0b0b"/><text x="225" y="250">Supervisor</text>
+</g>
+<use href="#clock" x="298" y="125"/><use href="#clock" x="298" y="185"/><use href="#clock" x="298" y="245"/>
+<!-- up arrow -->
+<line x1="80" y1="330" x2="80" y2="125" stroke="#0b0b0b" stroke-width="1.5"/>
+<line x1="80" y1="125" x2="166" y2="125" stroke="#0b0b0b" stroke-width="1.5" marker-end="url(#ah)"/>
+<text x="70" y="230" font-size="12" fill="#52514e" text-anchor="middle" transform="rotate(-90 70 230)">report goes up</text>
+<!-- down arrow -->
+<line x1="284" y1="125" x2="360" y2="125" stroke="#0b0b0b" stroke-width="1.5"/>
+<line x1="360" y1="125" x2="360" y2="318" stroke="#0b0b0b" stroke-width="1.5" marker-end="url(#ah)"/>
+<text x="374" y="230" font-size="12" fill="#52514e" text-anchor="middle" transform="rotate(90 374 230)">decision comes down</text>
+<!-- line (conveyor) -->
+<rect x="40" y="340" width="360" height="16" fill="#e4e3df" stroke="#0b0b0b"/>
+<g fill="#ffffff" stroke="#0b0b0b"><rect x="120" y="322" width="18" height="18"/><rect x="170" y="322" width="18" height="18"/><rect x="220" y="322" width="18" height="18"/></g>
+<g fill="#fdeee6" stroke="#eb6834"><rect x="270" y="322" width="18" height="18"/><rect x="310" y="322" width="18" height="18"/><rect x="350" y="322" width="18" height="18"/><rect x="380" y="322" width="18" height="18"/><rect x="380" y="304" width="18" height="18"/><rect x="362" y="304" width="18" height="18"/></g>
+<text x="360" y="376" font-size="11" fill="#eb6834" text-anchor="middle">defects pile up</text>
+<line x1="60" y1="398" x2="140" y2="398" stroke="#0b0b0b" marker-end="url(#ah)"/><text x="150" y="402" font-size="11" fill="#52514e">line keeps moving</text>
+<use href="#person" x="80" y="336"/>
+<text x="80" y="296" font-size="14" text-anchor="middle" fill="#0b0b0b">!</text>
+<text x="215" y="440" font-size="15" font-weight="bold" text-anchor="middle" fill="#0b0b0b">Hours or days</text>
+<text x="215" y="460" font-size="12" text-anchor="middle" fill="#52514e">The person who saw it waits for permission.</text>
+
+<!-- RIGHT: STOP -->
+<text x="645" y="92" font-size="16" font-weight="bold" text-anchor="middle" fill="#0b0b0b">STOP</text>
+<g font-size="12" text-anchor="middle" fill="#8a8984">
+  <rect x="590" y="110" width="110" height="30" fill="#fcfcfb" stroke="#c9c8c3"/><text x="645" y="130">Director</text>
+  <rect x="590" y="170" width="110" height="30" fill="#fcfcfb" stroke="#c9c8c3"/><text x="645" y="190">Manager</text>
+  <rect x="590" y="230" width="110" height="30" fill="#fcfcfb" stroke="#c9c8c3"/><text x="645" y="250">Supervisor</text>
+</g>
+<text x="760" y="190" font-size="11" fill="#8a8984" text-anchor="middle">(told afterwards)</text>
+<!-- cord -->
+<line x1="470" y1="272" x2="830" y2="272" stroke="#eb6834" stroke-width="2"/>
+<line x1="514" y1="272" x2="514" y2="296" stroke="#eb6834" stroke-width="3"/>
+<circle cx="514" cy="298" r="4" fill="#eb6834"/>
+<text x="530" y="289" font-size="12" fill="#eb6834">andon cord, along the whole line</text>
+<!-- line halted -->
+<rect x="470" y="340" width="360" height="16" fill="#e4e3df" stroke="#0b0b0b"/>
+<g fill="#ffffff" stroke="#0b0b0b"><rect x="560" y="322" width="18" height="18"/><rect x="610" y="322" width="18" height="18"/><rect x="660" y="322" width="18" height="18"/><rect x="710" y="322" width="18" height="18"/></g>
+<rect x="540" y="322" width="18" height="18" fill="#fdeee6" stroke="#eb6834"/>
+<text x="549" y="376" font-size="11" fill="#eb6834" text-anchor="middle">one defect, caught</text>
+<g stroke="#0b0b0b" stroke-width="2"><line x1="690" y1="392" x2="690" y2="408"/><line x1="698" y1="392" x2="698" y2="408"/></g><text x="708" y="404" font-size="11" fill="#52514e">line halted</text>
+<use href="#person" x="514" y="336"/>
+<!-- team leader -->
+<use href="#person" x="770" y="336"/>
+<text x="770" y="298" font-size="11" fill="#52514e" text-anchor="middle">team leader</text>
+<line x1="756" y1="316" x2="532" y2="316" stroke="#0b0b0b" stroke-width="1.5" marker-end="url(#ah)"/>
+<text x="645" y="440" font-size="15" font-weight="bold" text-anchor="middle" fill="#0b0b0b">Seconds</text>
+<text x="645" y="460" font-size="12" text-anchor="middle" fill="#52514e">The person who saw it decides, and help comes to them.</text>
+<text x="430" y="490" font-size="11" text-anchor="middle" fill="#8a8984">After Toyota's andon (Ohno: main plant, 1955) and the nurses' authority in Pronovost's ICU checklist.</text>
+</svg>

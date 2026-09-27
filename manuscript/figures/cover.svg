@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 2560" font-family="Georgia, 'Times New Roman', serif">
+<defs><pattern id="g" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40,0 H0 V40" fill="none" stroke="#dfe6ee" stroke-width="1.2"/></pattern><pattern id="G" width="200" height="200" patternUnits="userSpaceOnUse"><path d="M200,0 H0 V200" fill="none" stroke="#cfd8e3" stroke-width="2"/></pattern></defs>
+<rect width="1600" height="2560" fill="#f6f3ec"/>
+<rect width="1600" height="2560" fill="url(#g)"/><rect width="1600" height="2560" fill="url(#G)"/>
+<rect x="180" y="2050" width="1300" height="150" fill="none" stroke="#b9c5d3" stroke-width="3" stroke-dasharray="14 10"/>
+<rect x="370" y="1900" width="1110" height="150" fill="none" stroke="#b9c5d3" stroke-width="3" stroke-dasharray="14 10"/>
+<rect x="560" y="1750" width="920" height="150" fill="none" stroke="#b9c5d3" stroke-width="3" stroke-dasharray="14 10"/>
+<rect x="750" y="1600" width="730" height="150" fill="none" stroke="#b9c5d3" stroke-width="3" stroke-dasharray="14 10"/>
+<rect x="940" y="1450" width="540" height="150" fill="none" stroke="#b9c5d3" stroke-width="3" stroke-dasharray="14 10"/>
+<rect x="1130" y="1300" width="350" height="150" fill="none" stroke="#b9c5d3" stroke-width="3" stroke-dasharray="14 10"/>
+<circle cx="800" cy="1480" r="470" fill="none" stroke="#c4cfdb" stroke-width="5"/>
+<path d="M1185.0319397786861,1701.0 L1217.0319397786861,1715.0 L1185.0319397786861,1729.0 Z" fill="#c4cfdb" transform="rotate(120 1207.0319397786861 1715.0)"/>
+<path d="M370.96806022131386,1231.0 L402.96806022131386,1245.0 L370.96806022131386,1259.0 Z" fill="#c4cfdb" transform="rotate(300 392.96806022131386 1245.0)"/>
+<rect x="330" y="1330" width="360" height="300" fill="#f6f3ec" stroke="#14202b" stroke-width="6"/>
+<rect x="400" y="1440" width="220" height="130" fill="#fbe3d6" stroke="#eb6834" stroke-width="6"/>
+<text x="510" y="1400" font-size="44" text-anchor="middle" fill="#14202b" font-weight="bold">REGULATOR</text>
+<text x="510" y="1520" font-size="40" text-anchor="middle" fill="#14202b" font-style="italic">model</text>
+<rect x="910" y="1330" width="360" height="300" fill="#f6f3ec" stroke="#14202b" stroke-width="6"/>
+<text x="1090" y="1495" font-size="44" text-anchor="middle" fill="#14202b" font-weight="bold">THE WORK</text>
+<line x1="690" y1="1390" x2="890" y2="1390" stroke="#14202b" stroke-width="10"/><path d="M880,1370 L912,1390 L880,1410 Z" fill="#14202b"/>
+<line x1="910" y1="1570" x2="712" y2="1570" stroke="#14202b" stroke-width="4" stroke-dasharray="16 12"/><path d="M722,1555 L692,1570 L722,1585 Z" fill="#14202b"/>
+<text x="800" y="1370" font-size="34" text-anchor="middle" fill="#14202b" font-style="italic">acts</text>
+<text x="800" y="1620" font-size="34" text-anchor="middle" fill="#14202b" font-style="italic">feedback?</text>
+<line x1="1330" y1="0" x2="1330" y2="1180" stroke="#eb6834" stroke-width="16" stroke-linecap="round"/>
+<rect x="1300" y="1170" width="60" height="110" rx="26" fill="#eb6834"/>
+<g fill="none" stroke="#14202b" stroke-width="9" stroke-linecap="round"><circle cx="1180" cy="1110" r="34"/><line x1="1180" y1="1144" x2="1180" y2="1240"/><line x1="1180" y1="1240" x2="1142" y2="1320"/><line x1="1180" y1="1240" x2="1218" y2="1320"/><line x1="1180" y1="1170" x2="1288" y2="1100"/><line x1="1180" y1="1170" x2="1130" y2="1210"/></g>
+<text x="120" y="330" font-size="190" fill="#14202b" font-weight="bold" letter-spacing="-4">Every Good</text>
+<text x="120" y="530" font-size="190" fill="#14202b" font-weight="bold" letter-spacing="-4">Regulator</text>
+<rect x="120" y="590" width="220" height="14" fill="#eb6834"/>
+<text x="120" y="700" font-size="58" fill="#14202b" font-style="italic">Why the systems that run our work fail —</text>
+<text x="120" y="780" font-size="58" fill="#14202b" font-style="italic">and how to build ones that don't</text>
+<text x="800" y="2330" font-size="46" text-anchor="middle" fill="#14202b" letter-spacing="10">MODEL · LEGIBILITY · REMAINDER · STOP · JUMP</text>
+<text x="800" y="2450" font-size="78" text-anchor="middle" fill="#14202b">Muhammad Hammad Shakeel</text>
+</svg>

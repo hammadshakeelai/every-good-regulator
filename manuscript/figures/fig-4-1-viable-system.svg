@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 540" font-family="Georgia, serif" role="img" aria-labelledby="t d">
+<title id="t">Figure 4.1 — The viable system, drawn plainly</title>
+<desc id="d">Stafford Beer's viable system model, simplified. Three work-unit circles (System 1) at the bottom, each touching a wavy line labelled environment. A band between them: 2, coordination. Above: 3, today, with a dotted side box 3-star, audit, reaching directly into the work units. Above that: 4, outside and future, with arrows reaching out to the environment. At the top: 5, identity, balancing 3 and 4 like scales. Inside one work unit, a tiny copy of the whole diagram: every unit is itself a viable system.</desc>
+<defs>
+  <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0b0b0b"/></marker>
+  <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20,0 H0 V20" fill="none" stroke="#efeee9" stroke-width="1"/></pattern>
+  <g id="mini" stroke="#0b0b0b" stroke-width="0.8" fill="#ffffff">
+    <rect x="-8" y="-22" width="16" height="6"/><rect x="-8" y="-14" width="16" height="6"/><rect x="-8" y="-6" width="16" height="6"/>
+    <circle cx="-8" cy="8" r="4"/><circle cx="0" cy="8" r="4"/><circle cx="8" cy="8" r="4"/>
+  </g>
+</defs>
+<rect width="860" height="540" fill="#fcfcfb"/><rect width="860" height="540" fill="url(#grid)"/>
+<text x="24" y="36" font-size="20" font-weight="bold" fill="#0b0b0b">The viable system, drawn plainly</text>
+<text x="24" y="58" font-size="13" fill="#52514e">Five jobs every organisation that survives must be doing — whether or not anyone is assigned to them.</text>
+
+<!-- 5 identity with scales -->
+<rect x="330" y="80" width="200" height="46" rx="4" fill="#ffffff" stroke="#0b0b0b" stroke-width="2"/>
+<text x="430" y="101" font-size="14" font-weight="bold" text-anchor="middle" fill="#0b0b0b">5 · identity</text>
+<text x="430" y="117" font-size="11" text-anchor="middle" fill="#52514e">who we are; what we won't do</text>
+<line x1="430" y1="126" x2="430" y2="146" stroke="#0b0b0b" stroke-width="2"/>
+<line x1="330" y1="146" x2="530" y2="146" stroke="#0b0b0b" stroke-width="2"/>
+<polygon points="430,140 424,150 436,150" fill="#0b0b0b"/>
+<line x1="330" y1="146" x2="330" y2="166" stroke="#0b0b0b"/><line x1="530" y1="146" x2="530" y2="166" stroke="#0b0b0b"/>
+
+<!-- 3 and 4 -->
+<rect x="240" y="166" width="180" height="50" rx="4" fill="#ffffff" stroke="#0b0b0b" stroke-width="2"/>
+<text x="330" y="188" font-size="14" font-weight="bold" text-anchor="middle" fill="#0b0b0b">3 · today</text>
+<text x="330" y="204" font-size="11" text-anchor="middle" fill="#52514e">resources, rules, the plan</text>
+<rect x="440" y="166" width="180" height="50" rx="4" fill="#fdeee6" stroke="#eb6834" stroke-width="2"/>
+<text x="530" y="188" font-size="14" font-weight="bold" text-anchor="middle" fill="#0b0b0b">4 · outside &amp; future</text>
+<text x="530" y="204" font-size="11" text-anchor="middle" fill="#52514e">what is changing out there</text>
+<path d="M620,190 C 720,190 760,260 770,452" fill="none" stroke="#eb6834" stroke-width="1.8" marker-end="url(#ah)"/>
+<path d="M620,200 C 690,220 720,300 720,452" fill="none" stroke="#eb6834" stroke-width="1.8" marker-end="url(#ah)"/>
+<text x="700" y="178" font-size="11" fill="#eb6834">looks outward</text>
+
+<!-- 3* audit -->
+<rect x="80" y="230" width="120" height="40" rx="4" fill="#ffffff" stroke="#0b0b0b" stroke-dasharray="4 3"/>
+<text x="140" y="248" font-size="13" font-weight="bold" text-anchor="middle" fill="#0b0b0b">3* · audit</text>
+<text x="140" y="263" font-size="10" text-anchor="middle" fill="#52514e">go and look for yourself</text>
+<line x1="240" y1="200" x2="200" y2="240" stroke="#0b0b0b" stroke-dasharray="4 3"/>
+<path d="M140,270 L180,338" fill="none" stroke="#0b0b0b" stroke-dasharray="4 3" marker-end="url(#ah)"/>
+
+<!-- line from 3 to units -->
+<line x1="330" y1="216" x2="330" y2="296" stroke="#0b0b0b" stroke-width="2"/>
+
+<!-- 2 coordination band -->
+<rect x="170" y="296" width="460" height="22" fill="#ecebe6" stroke="#a9a8a2"/>
+<text x="400" y="312" font-size="12" text-anchor="middle" fill="#0b0b0b" font-weight="bold">2 · coordination — stop the units tripping over each other</text>
+
+<!-- 1 work units -->
+<g fill="#ffffff" stroke="#0b0b0b" stroke-width="2"><circle cx="230" cy="380" r="46"/><circle cx="400" cy="380" r="46"/><circle cx="570" cy="380" r="46"/></g>
+<g font-size="12" text-anchor="middle" fill="#0b0b0b"><text x="400" y="376" font-weight="bold">work unit</text><text x="400" y="392" fill="#52514e">(System 1)</text><text x="570" y="376" font-weight="bold">work unit</text><text x="570" y="392" fill="#52514e">(System 1)</text></g>
+<g transform="translate(230,382) scale(2)"><use href="#mini"/></g>
+<text x="112" y="410" font-size="11" text-anchor="middle" fill="#eb6834" font-style="italic">every unit is itself</text><text x="112" y="424" font-size="11" text-anchor="middle" fill="#eb6834" font-style="italic">a viable system</text>
+
+<!-- environment -->
+<path d="M60,470 C 120,450 180,490 240,470 S 360,450 420,470 S 540,490 600,470 S 720,450 800,470" fill="none" stroke="#52514e" stroke-width="2"/>
+<g stroke="#52514e"><line x1="230" y1="426" x2="230" y2="466"/><line x1="400" y1="426" x2="400" y2="466"/><line x1="570" y1="426" x2="570" y2="466"/></g>
+<text x="800" y="496" font-size="13" text-anchor="end" fill="#52514e" font-style="italic">environment — customers, markets, the world</text>
+<text x="24" y="528" font-size="11" fill="#8a8984">After Stafford Beer, Brain of the Firm (1972). Deliberately simplified; Beer's own drawings carry many more channels.</text>
+</svg>

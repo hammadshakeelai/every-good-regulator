@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 460" font-family="Georgia, serif" role="img" aria-labelledby="t d">
+<title id="t">Figure 2.1 — The control loop</title>
+<desc id="d">A regulator, which contains a model, acts on the work. Feedback returns from the work to the regulator. Disturbances strike the work from outside. A dashed arrow runs from the disturbances directly to the regulator: sensing the cause, not waiting for the error.</desc>
+<defs>
+  <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0b0b0b"/></marker>
+  <marker id="aa" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#eb6834"/></marker>
+  <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20,0 H0 V20" fill="none" stroke="#efeee9" stroke-width="1"/></pattern>
+</defs>
+<rect width="860" height="460" fill="#fcfcfb"/>
+<rect width="860" height="460" fill="url(#grid)"/>
+<text x="24" y="36" font-size="20" font-weight="bold" fill="#0b0b0b">The control loop</text>
+<text x="24" y="58" font-size="13" fill="#52514e">Every governing layer in this book is a version of this drawing.</text>
+
+<!-- Regulator -->
+<rect x="70" y="170" width="250" height="160" rx="6" fill="#ffffff" stroke="#0b0b0b" stroke-width="2"/>
+<text x="195" y="198" font-size="17" font-weight="bold" text-anchor="middle" fill="#0b0b0b">Regulator</text>
+<text x="195" y="216" font-size="12" text-anchor="middle" fill="#52514e">thermostat · manager · dashboard · agent</text>
+<rect x="120" y="236" width="150" height="70" rx="4" fill="#fdeee6" stroke="#eb6834" stroke-width="2"/>
+<text x="195" y="266" font-size="16" font-weight="bold" text-anchor="middle" fill="#0b0b0b">model</text>
+<text x="195" y="286" font-size="12" text-anchor="middle" fill="#52514e">its picture of the work</text>
+
+<!-- Work -->
+<rect x="540" y="170" width="250" height="160" rx="6" fill="#ffffff" stroke="#0b0b0b" stroke-width="2"/>
+<text x="665" y="240" font-size="17" font-weight="bold" text-anchor="middle" fill="#0b0b0b">The work</text>
+<text x="665" y="262" font-size="12" text-anchor="middle" fill="#52514e">a room · a team · a codebase · a fleet</text>
+
+<!-- acts -->
+<line x1="320" y1="205" x2="536" y2="205" stroke="#0b0b0b" stroke-width="2" marker-end="url(#ah)"/>
+<text x="428" y="196" font-size="14" text-anchor="middle" fill="#0b0b0b" font-style="italic">acts</text>
+
+<!-- feedback -->
+<line x1="540" y1="300" x2="324" y2="300" stroke="#0b0b0b" stroke-width="2" marker-end="url(#ah)"/>
+<text x="428" y="322" font-size="14" text-anchor="middle" fill="#0b0b0b" font-style="italic">feedback</text>
+<text x="428" y="340" font-size="11" text-anchor="middle" fill="#52514e">(after the error has happened)</text>
+
+<!-- disturbances -->
+<text x="720" y="92" font-size="14" text-anchor="middle" fill="#0b0b0b" font-style="italic">disturbances</text>
+<text x="720" y="108" font-size="11" text-anchor="middle" fill="#52514e">weather · load · change · people</text>
+<polyline points="720,116 708,130 730,140 710,152 726,160 712,166" fill="none" stroke="#0b0b0b" stroke-width="2" marker-end="url(#ah)"/>
+
+<!-- senses the cause -->
+<path d="M690,100 C 520,70 300,80 215,166" fill="none" stroke="#eb6834" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#aa)"/>
+<text x="430" y="128" font-size="14" text-anchor="middle" fill="#0b0b0b" font-style="italic">senses the cause</text>
+<text x="430" y="144" font-size="11" text-anchor="middle" fill="#52514e">(the cow's skin: act before the error)</text>
+
+<!-- footnote -->
+<text x="24" y="392" font-size="12" fill="#52514e">Conant and Ashby (1970): the simplest good regulator must contain a model of what it regulates.</text>
+<text x="24" y="410" font-size="12" fill="#52514e">Leveson (2011): accidents happen when the model no longer matches the work.</text>
+<text x="24" y="440" font-size="11" fill="#8a8984">Orange marks the parts most governing layers leave out: the model, and sensing the cause.</text>
+</svg>

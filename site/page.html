@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{{TITLE}} · {{BOOK}}</title>
+<meta name="description" content="{{TITLE}} — from Every Good Regulator, a book about the systems that run our systems, by Muhammad Hammad Shakeel.">
+<meta name="theme-color" content="#f6f3ec" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#11161c" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="img/cover.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=Inter:wght@500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+<script>try{var t=localStorage.getItem('egr-theme');if(t)document.documentElement.dataset.theme=t}catch(e){}document.documentElement.classList.add('js')</script>
+</head>
+<body class="reader kind-{{KIND}}">
+<a class="skip" href="#content">Skip to the text</a>
+<div class="progress" aria-hidden="true"><span></span></div>
+<header class="topbar">
+  <button class="icon-btn menu-btn" aria-label="Open the contents" aria-expanded="false" aria-controls="toc">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h10"/></svg>
+  </button>
+  <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span>{{BOOK}}</a>
+  <span class="crumb">{{LABEL}} · {{MINUTES}} min read</span>
+  <div class="top-actions">
+    <details class="dl">
+      <summary class="icon-btn" aria-label="Download the book"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg></summary>
+      <div class="dl-menu">
+        <a href="{{DL}}EVERY-GOOD-REGULATOR.pdf">PDF</a>
+        <a href="{{DL}}EVERY-GOOD-REGULATOR.epub">EPUB (e-readers)</a>
+        <a href="{{DL}}EVERY-GOOD-REGULATOR.docx">Word</a>
+        <a href="{{REPO}}" target="_blank" rel="noopener">Source on GitHub</a>
+      </div>
+    </details>
+    <button class="icon-btn theme-btn" aria-label="Switch light or dark">
+      <svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg>
+      <svg class="moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg>
+    </button>
+  </div>
+</header>
+<div class="scrim" hidden></div>
+<div class="layout">
+  <aside class="sidebar" id="toc" aria-label="Contents">
+    <div class="sidebar-head"><a href="index.html"><img src="img/cover.png" alt="" width="54" height="86"></a><div><strong>{{BOOK}}</strong><span>Muhammad Hammad Shakeel</span></div></div>
+    <ol class="toc">{{TOC}}</ol>
+  </aside>
+  <main id="content" tabindex="-1">
+    <article class="prose">
+{{BODY}}
+    </article>
+    {{PAGER}}
+    <footer class="foot">© 2026 Muhammad Hammad Shakeel · <a href="index.html">Every Good Regulator</a> · <a href="{{REPO}}" target="_blank" rel="noopener">GitHub</a></footer>
+  </main>
+</div>
+<dialog class="lightbox" aria-label="Enlarged image"><button class="icon-btn close" aria-label="Close">✕</button><div class="lb-frame"></div><p class="lb-cap"></p></dialog>
+<script src="app.js" defer></script>
+</body>
+</html>

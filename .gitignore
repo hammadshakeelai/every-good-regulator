@@ -1,0 +1,19 @@
+# Reference books (other people's copyrighted works) — never publish
+/*.pdf
+/*.epub
+# Built outputs are attached to GitHub Releases instead
+manuscript/EVERY-GOOD-REGULATOR*.pdf
+manuscript/EVERY-GOOD-REGULATOR*.epub
+manuscript/EVERY-GOOD-REGULATOR*.docx
+manuscript/EVERY-GOOD-REGULATOR-full-draft.md
+manuscript/build/book.html
+manuscript/build/ref-default.docx
+# Full tagging sheet copies Dan Luu's unlicensed one-line summaries; the public version omits them
+research_notes/postmortem_tagging.csv
+# Downloaded source documents (link to the originals instead)
+research_notes/sources/
+# Local tooling
+.claude/
+__pycache__/
+*.pyc
+reports/

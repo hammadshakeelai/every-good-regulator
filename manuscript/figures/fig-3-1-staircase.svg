@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 520" font-family="Georgia, serif" role="img" aria-labelledby="t d">
+<title id="t">Figure 3.1 — The staircase of jumps</title>
+<desc id="d">A staircase of five steps. Step 1, make the thing. Step 2, make the thing that makes the thing. Step 3, make the factories. Step 4, write the thing that writes the code. Step 5, agents that write, test and ship. Above each new step hangs a question mark: who governs this? A small figure with a clipboard climbs the stairs, falling further behind at each step.</desc>
+<defs>
+  <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20,0 H0 V20" fill="none" stroke="#efeee9" stroke-width="1"/></pattern>
+  <g id="q"><circle r="13" fill="#fdeee6" stroke="#eb6834" stroke-width="1.5"/><text y="6" font-size="17" font-weight="bold" text-anchor="middle" fill="#eb6834">?</text></g>
+</defs>
+<rect width="860" height="520" fill="#fcfcfb"/>
+<rect width="860" height="520" fill="url(#grid)"/>
+<text x="24" y="36" font-size="20" font-weight="bold" fill="#0b0b0b">The staircase of jumps</text>
+<text x="24" y="58" font-size="13" fill="#52514e">Each step controls, and multiplies, the one below it (Turchin: "the control of X is X′").</text>
+
+<!-- steps: width 150, rise 70 -->
+<g fill="#ffffff" stroke="#0b0b0b" stroke-width="2">
+  <path d="M40,470 H190 V400 H340 V330 H490 V260 H640 V190 H790 V470 Z"/>
+</g>
+<g stroke="#c9c8c3" stroke-width="1"><line x1="190" y1="400" x2="190" y2="470"/><line x1="340" y1="330" x2="340" y2="470"/><line x1="490" y1="260" x2="490" y2="470"/><line x1="640" y1="190" x2="640" y2="470"/></g>
+
+<!-- step labels -->
+<g font-size="12" fill="#0b0b0b" text-anchor="middle">
+  <text x="115" y="494" font-weight="bold">1. Make the thing</text>
+  <text x="265" y="424" font-weight="bold">2. Make the thing</text><text x="265" y="440">that makes the thing</text>
+  <text x="415" y="354" font-weight="bold">3. Make the factories</text><text x="415" y="370">(a platform)</text>
+  <text x="565" y="284" font-weight="bold">4. Write the thing that</text><text x="565" y="300">writes the code</text>
+  <text x="715" y="214" font-weight="bold">5. Agents that write,</text><text x="715" y="230">test and ship</text>
+</g>
+
+<!-- icons on each tread -->
+<!-- 1 hammer -->
+<g stroke="#0b0b0b" stroke-width="2" fill="none"><line x1="100" y1="462" x2="126" y2="436"/><rect x="118" y="424" width="18" height="10" transform="rotate(45 127 429)" fill="#e4e3df"/></g>
+<!-- 2 factory -->
+<g stroke="#0b0b0b" stroke-width="1.5" fill="#e4e3df"><path d="M240,398 V376 L256,386 V376 L272,386 V366 H282 V398 Z"/></g>
+<!-- 3 platform with factories -->
+<g stroke="#0b0b0b" stroke-width="1.2" fill="#e4e3df"><rect x="370" y="322" width="90" height="6"/><path d="M378,322 V310 L386,315 V310 L394,315 V304 H398 V322 Z"/><path d="M406,322 V310 L414,315 V310 L422,315 V304 H426 V322 Z"/><path d="M434,322 V310 L442,315 V310 L450,315 V304 H454 V322 Z"/></g>
+<!-- 4 compiler: code brackets -->
+<text x="565" y="252" font-size="22" text-anchor="middle" fill="#0b0b0b" font-family="Consolas, monospace">{ } → 0101</text>
+<!-- 5 robots around a queue -->
+<g stroke="#0b0b0b" stroke-width="1.2" fill="#ffffff">
+  <rect x="690" y="160" width="14" height="14"/><rect x="712" y="160" width="14" height="14"/><rect x="734" y="160" width="14" height="14"/>
+  <line x1="697" y1="160" x2="697" y2="154"/><line x1="719" y1="160" x2="719" y2="154"/><line x1="741" y1="160" x2="741" y2="154"/>
+  <rect x="690" y="178" width="58" height="8" fill="#e4e3df"/>
+</g>
+
+<!-- question marks: who governs this? -->
+<use href="#q" x="265" y="352"/><use href="#q" x="415" y="282"/><use href="#q" x="565" y="212"/><use href="#q" x="715" y="128"/>
+<text x="715" y="100" font-size="12" fill="#eb6834" text-anchor="middle" font-style="italic">who governs this?</text>
+
+<!-- climber with clipboard, stuck on step 1 -->
+<g fill="none" stroke="#0b0b0b" stroke-width="1.5">
+  <circle cx="160" cy="436" r="6"/><line x1="160" y1="442" x2="160" y2="456"/><line x1="160" y1="456" x2="154" y2="469"/><line x1="160" y1="456" x2="167" y2="468"/><line x1="160" y1="447" x2="170" y2="450"/>
+  <rect x="169" y="444" width="9" height="12" fill="#ffffff"/>
+</g>
+<path d="M170,428 C 260,380 470,250 690,150" fill="none" stroke="#a9a8a2" stroke-dasharray="3 5"/>
+<text x="60" y="400" font-size="11" fill="#52514e">the people who</text>
+<text x="60" y="414" font-size="11" fill="#52514e">check the work</text>
+
+<text x="24" y="512" font-size="11" fill="#8a8984">The author's mapping of Turchin's metasystem transition onto software work (Chapter 3). Each jump multiplies output; each needs its own governor.</text>
+</svg>

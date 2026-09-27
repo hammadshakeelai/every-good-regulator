@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 480" font-family="Georgia, serif" role="img" aria-labelledby="t d">
+<title id="t">Figure 15.1 — A personal operating system that stays alive</title>
+<desc id="d">A person at the centre of three rings. The innermost, small and bright: today's list, refreshed daily. The middle ring, thin: calendar, things with dates. The outer ring, large and faded, drawn as a filing cabinet: archive, asks nothing of you. Off to one side, an overgrown tangle labelled the system for maintaining the system, with an arrow to a small stop sign.</desc>
+<defs>
+  <marker id="aa" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#eb6834"/></marker>
+  <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20,0 H0 V20" fill="none" stroke="#efeee9" stroke-width="1"/></pattern>
+</defs>
+<rect width="860" height="480" fill="#fcfcfb"/><rect width="860" height="480" fill="url(#grid)"/>
+<text x="24" y="36" font-size="20" font-weight="bold" fill="#0b0b0b">A personal operating system that stays alive</text>
+<text x="24" y="58" font-size="13" fill="#52514e">Small and fresh at the centre; quiet at the edge; nothing that exists only to maintain itself.</text>
+
+<!-- outer ring: archive -->
+<circle cx="300" cy="265" r="185" fill="#f3f2ee" stroke="#c9c8c3" stroke-width="2" stroke-dasharray="2 4"/>
+<g transform="translate(410,366)" fill="#ecebe6" stroke="#a9a8a2">
+  <rect width="54" height="66"/><rect x="6" y="6" width="42" height="16"/><rect x="6" y="26" width="42" height="16"/><rect x="6" y="46" width="42" height="16"/>
+  <g fill="#a9a8a2" stroke="none"><rect x="23" y="12" width="8" height="3"/><rect x="23" y="32" width="8" height="3"/><rect x="23" y="52" width="8" height="3"/></g>
+</g>
+<text x="170" y="410" font-size="14" fill="#8a8984" font-weight="bold">archive</text>
+<text x="170" y="428" font-size="12" fill="#8a8984">asks nothing of you</text>
+<!-- middle ring: calendar -->
+<circle cx="300" cy="265" r="115" fill="none" stroke="#52514e" stroke-width="1.5"/>
+<text x="300" y="165" font-size="13" text-anchor="middle" fill="#0b0b0b" font-weight="bold">calendar</text>
+<text x="300" y="181" font-size="11" text-anchor="middle" fill="#52514e">things with dates</text>
+<!-- inner ring: today -->
+<circle cx="300" cy="265" r="58" fill="#fdeee6" stroke="#eb6834" stroke-width="3"/>
+<g fill="none" stroke="#0b0b0b" stroke-width="1.8">
+  <circle cx="300" cy="248" r="8"/><line x1="300" y1="256" x2="300" y2="276"/><line x1="300" y1="276" x2="293" y2="292"/><line x1="300" y1="276" x2="307" y2="292"/><line x1="300" y1="263" x2="290" y2="270"/><line x1="300" y1="263" x2="310" y2="270"/>
+</g>
+<text x="300" y="232" font-size="12" text-anchor="middle" fill="#0b0b0b" font-weight="bold">you</text>
+<line x1="358" y1="262" x2="428" y2="262" stroke="#eb6834" stroke-width="1"/>
+<text x="434" y="258" font-size="13" fill="#eb6834" font-weight="bold">today's list</text>
+<text x="434" y="274" font-size="11" fill="#52514e">refreshed daily</text>
+
+<!-- tangle -->
+<g fill="none" stroke="#8a8984" stroke-width="1.2">
+  <path d="M600,150 C 660,110 720,190 650,200 C 580,210 700,240 740,180 C 780,120 640,120 620,170 C 600,220 760,230 700,150 C 660,100 590,190 670,230 C 740,265 790,160 720,140"/>
+  <path d="M630,160 C 700,150 690,230 620,210 C 580,190 700,120 760,200"/>
+</g>
+<g font-size="10" fill="#52514e"><text x="598" y="128">tags</text><text x="745" y="160">templates</text><text x="585" y="236">plugin updates</text><text x="708" y="252">backlinks</text></g>
+<text x="690" y="286" font-size="13" text-anchor="middle" fill="#0b0b0b" font-weight="bold">the system for</text>
+<text x="690" y="302" font-size="13" text-anchor="middle" fill="#0b0b0b" font-weight="bold">maintaining the system</text>
+<path d="M690,312 L690,352" stroke="#eb6834" stroke-width="2" marker-end="url(#aa)"/>
+<g transform="translate(690,388)"><polygon points="-14,-34 14,-34 34,-14 34,14 14,34 -14,34 -34,14 -34,-14" fill="#eb6834"/><text y="6" font-size="15" text-anchor="middle" fill="#ffffff" font-weight="bold">STOP</text></g>
+<text x="24" y="468" font-size="11" fill="#8a8984">After Jeff Huang's one-file system and Joan Westenberg's deleted second brain (Chapter 15).</text>
+</svg>

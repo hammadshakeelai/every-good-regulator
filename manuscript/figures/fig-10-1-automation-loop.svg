@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 470" font-family="Georgia, serif" role="img" aria-labelledby="t d">
+<title id="t">Figure 10.1 — The loop that closed without you</title>
+<desc id="d">An automation box, carrying the model, acts on the work, and feedback returns to the automation. The loop is closed without the person. A stick figure stands above it, connected only by a dashed line labelled watches. Beside the figure, a bar labelled hands-on skill fades across five segments from year 1 to year 5.</desc>
+<defs>
+  <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0b0b0b"/></marker>
+  <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20,0 H0 V20" fill="none" stroke="#efeee9" stroke-width="1"/></pattern>
+</defs>
+<rect width="860" height="470" fill="#fcfcfb"/><rect width="860" height="470" fill="url(#grid)"/>
+<text x="24" y="36" font-size="20" font-weight="bold" fill="#0b0b0b">The loop that closed without you</text>
+<text x="24" y="58" font-size="13" fill="#52514e">The Remainder: automation takes the loop; the person is left watching it.</text>
+
+<!-- person -->
+<g fill="none" stroke="#0b0b0b" stroke-width="2">
+  <circle cx="430" cy="100" r="11"/><line x1="430" y1="111" x2="430" y2="140"/><line x1="430" y1="140" x2="419" y2="162"/><line x1="430" y1="140" x2="441" y2="162"/><line x1="430" y1="120" x2="416" y2="132"/><line x1="430" y1="120" x2="444" y2="132"/>
+</g>
+<text x="462" y="104" font-size="14" fill="#0b0b0b" font-weight="bold">you</text>
+<text x="462" y="122" font-size="12" fill="#52514e">operator · pilot · reviewer</text>
+<line x1="430" y1="170" x2="430" y2="236" stroke="#eb6834" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="440" y="208" font-size="13" fill="#eb6834" font-style="italic">watches</text>
+
+<!-- loop -->
+<rect x="70" y="240" width="260" height="120" rx="6" fill="#ffffff" stroke="#0b0b0b" stroke-width="2"/>
+<text x="200" y="290" font-size="17" font-weight="bold" text-anchor="middle" fill="#0b0b0b">Automation</text>
+<text x="200" y="310" font-size="12" text-anchor="middle" fill="#52514e">(carries the model)</text>
+<rect x="530" y="240" width="260" height="120" rx="6" fill="#ffffff" stroke="#0b0b0b" stroke-width="2"/>
+<text x="660" y="290" font-size="17" font-weight="bold" text-anchor="middle" fill="#0b0b0b">The work</text>
+<text x="660" y="310" font-size="12" text-anchor="middle" fill="#52514e">plant · codebase · fleet</text>
+<line x1="330" y1="265" x2="524" y2="265" stroke="#0b0b0b" stroke-width="2" marker-end="url(#ah)"/>
+<text x="428" y="258" font-size="13" text-anchor="middle" font-style="italic" fill="#0b0b0b">acts</text>
+<line x1="530" y1="335" x2="336" y2="335" stroke="#0b0b0b" stroke-width="2" marker-end="url(#ah)"/>
+<text x="428" y="355" font-size="13" text-anchor="middle" font-style="italic" fill="#0b0b0b">feedback</text>
+
+<!-- skill bar -->
+<text x="70" y="404" font-size="13" font-weight="bold" fill="#0b0b0b">hands-on skill</text>
+<g stroke="#ffffff" stroke-width="2">
+  <rect x="200" y="392" width="110" height="18" fill="#eb6834"/>
+  <rect x="310" y="392" width="110" height="18" fill="#eb6834" fill-opacity="0.72"/>
+  <rect x="420" y="392" width="110" height="18" fill="#eb6834" fill-opacity="0.48"/>
+  <rect x="530" y="392" width="110" height="18" fill="#eb6834" fill-opacity="0.28"/>
+  <rect x="640" y="392" width="110" height="18" fill="#eb6834" fill-opacity="0.12"/>
+</g>
+<g font-size="11" fill="#52514e" text-anchor="middle"><text x="255" y="426">year 1</text><text x="365" y="426">year 2</text><text x="475" y="426">year 3</text><text x="585" y="426">year 4</text><text x="695" y="426">year 5</text></g>
+<text x="24" y="456" font-size="11" fill="#8a8984">After Bainbridge, "Ironies of Automation" (1983): skills rust when unused; watching fails after about half an hour. The fade is illustrative.</text>
+</svg>

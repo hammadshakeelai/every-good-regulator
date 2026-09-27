@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 470" font-family="Georgia, serif" role="img" aria-labelledby="t d">
+<title id="t">Figure 14.1 — Too little, too much, enough</title>
+<desc id="d">Three organisation charts. Too little: work units with nothing above them; the five metasystem functions float as question marks, one drifting towards a shadowy box labelled hidden hierarchy. Too much: tiny work units buried under a tall stack of boxes labelled process, reporting, OKRs, meetings about meetings. Enough: large work units, above them a small clear structure where each of the five functions has one named owner, with a dotted line labelled alarms go straight up running from the work to the top.</desc>
+<defs>
+  <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20,0 H0 V20" fill="none" stroke="#efeee9" stroke-width="1"/></pattern>
+  <g id="q"><circle r="11" fill="#ffffff" stroke="#a9a8a2" stroke-dasharray="2 2"/><text y="5" font-size="13" text-anchor="middle" fill="#8a8984" font-weight="bold">?</text></g>
+  <marker id="aa" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#eb6834"/></marker>
+</defs>
+<rect width="860" height="470" fill="#fcfcfb"/><rect width="860" height="470" fill="url(#grid)"/>
+<text x="24" y="36" font-size="20" font-weight="bold" fill="#0b0b0b">Too little, too much, enough</text>
+<text x="24" y="58" font-size="13" fill="#52514e">The organisation's operating system: the five functions have to live somewhere. The question is how much structure they need.</text>
+<g stroke="#c9c8c3" stroke-dasharray="4 4"><line x1="287" y1="80" x2="287" y2="420"/><line x1="573" y1="80" x2="573" y2="420"/></g>
+
+<!-- TOO LITTLE -->
+<text x="143" y="98" font-size="15" font-weight="bold" text-anchor="middle" fill="#0b0b0b">Too little</text>
+<g fill="#ffffff" stroke="#0b0b0b" stroke-width="2"><circle cx="70" cy="360" r="30"/><circle cx="143" cy="360" r="30"/><circle cx="216" cy="360" r="30"/></g>
+<use href="#q" x="60" y="170"/><use href="#q" x="120" y="140"/><use href="#q" x="170" y="200"/><use href="#q" x="90" y="240"/><use href="#q" x="230" y="160"/>
+<rect x="190" y="228" width="84" height="40" rx="4" fill="#d9d8d3" stroke="#8a8984"/>
+<text x="232" y="244" font-size="10" text-anchor="middle" fill="#52514e">hidden</text><text x="232" y="258" font-size="10" text-anchor="middle" fill="#52514e">hierarchy</text>
+<path d="M178,206 L196,226" stroke="#a9a8a2" stroke-dasharray="2 2"/>
+<text x="143" y="418" font-size="11" text-anchor="middle" fill="#52514e">nobody owns the five jobs,</text>
+<text x="143" y="432" font-size="11" text-anchor="middle" fill="#52514e">so someone owns them quietly</text>
+
+<!-- TOO MUCH -->
+<text x="430" y="98" font-size="15" font-weight="bold" text-anchor="middle" fill="#0b0b0b">Too much</text>
+<g font-size="11" text-anchor="middle" fill="#0b0b0b">
+  <rect x="340" y="118" width="180" height="30" fill="#ffffff" stroke="#0b0b0b"/><text x="430" y="138">meetings about meetings</text>
+  <rect x="330" y="150" width="200" height="30" fill="#ffffff" stroke="#0b0b0b"/><text x="430" y="170">OKRs</text>
+  <rect x="320" y="182" width="220" height="30" fill="#ffffff" stroke="#0b0b0b"/><text x="430" y="202">reporting</text>
+  <rect x="315" y="214" width="230" height="30" fill="#ffffff" stroke="#0b0b0b"/><text x="430" y="234">process</text>
+  <rect x="310" y="246" width="240" height="30" fill="#ffffff" stroke="#0b0b0b"/><text x="430" y="266">review of process</text>
+  <rect x="305" y="278" width="250" height="30" fill="#ffffff" stroke="#0b0b0b"/><text x="430" y="298">governance forum</text>
+</g>
+<g fill="#ffffff" stroke="#0b0b0b" stroke-width="1.5"><circle cx="385" cy="330" r="10"/><circle cx="430" cy="330" r="10"/><circle cx="475" cy="330" r="10"/></g>
+<text x="430" y="360" font-size="10" text-anchor="middle" fill="#52514e">(the work)</text>
+<text x="430" y="418" font-size="11" text-anchor="middle" fill="#52514e">the governing layer is bigger</text>
+<text x="430" y="432" font-size="11" text-anchor="middle" fill="#52514e">than what it governs</text>
+
+<!-- ENOUGH -->
+<text x="717" y="98" font-size="15" font-weight="bold" text-anchor="middle" fill="#0b0b0b">Enough</text>
+<g font-size="10" fill="#0b0b0b">
+  <rect x="660" y="118" width="114" height="24" fill="#ffffff" stroke="#0b0b0b"/><text x="667" y="134">5 identity — Ana</text>
+  <rect x="610" y="150" width="104" height="24" fill="#ffffff" stroke="#0b0b0b"/><text x="617" y="166">3 today — Ben</text>
+  <rect x="722" y="150" width="114" height="24" fill="#ffffff" stroke="#0b0b0b"/><text x="729" y="166">4 future — Cleo</text>
+  <rect x="610" y="182" width="104" height="24" fill="#ffffff" stroke="#0b0b0b"/><text x="617" y="198">3* audit — Dev</text>
+  <rect x="722" y="182" width="114" height="24" fill="#ffffff" stroke="#0b0b0b"/><text x="729" y="198">2 coordinate — Eli</text>
+</g>
+<g fill="#ffffff" stroke="#0b0b0b" stroke-width="2"><circle cx="640" cy="320" r="36"/><circle cx="717" cy="320" r="36"/><circle cx="794" cy="320" r="36"/></g>
+<text x="717" y="325" font-size="11" text-anchor="middle" fill="#0b0b0b">the work</text>
+<path d="M812,288 C 856,250 858,130 778,128" fill="none" stroke="#eb6834" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#aa)"/>
+<text x="717" y="250" font-size="11" text-anchor="middle" fill="#eb6834" font-style="italic">alarms go straight up →</text>
+<text x="717" y="418" font-size="11" text-anchor="middle" fill="#52514e">each job has one named owner;</text>
+<text x="717" y="432" font-size="11" text-anchor="middle" fill="#52514e">the work stays the biggest thing</text>
+<text x="24" y="460" font-size="11" fill="#8a8984">After Beer's viable system model (Chapter 4) applied to operating models (Chapter 14). Names are placeholders.</text>
+</svg>
